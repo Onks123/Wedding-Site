@@ -1,0 +1,87 @@
+import Image, { type StaticImageData } from "next/image";
+import { NavbarSpace } from "@/components/navbar";
+import type { ReactNode } from "react";
+import { Button } from "@/components/catalyst/button";
+import { currentUser } from "@/lib/auth";
+
+type VenueDetailsPageProps = {
+	title: string;
+	description: string;
+	image: StaticImageData;
+	children: ReactNode;
+	redirectUrl: string;
+	imageTitle: string;
+	preTitle: string;
+};
+
+type HasAccessProps = {
+	children: ReactNode;
+	redirectUrl: string;
+};
+
+async function HasAccess(props: HasAccessProps) {
+	const user = await currentUser();
+	if (user) {
+		return <>{props.children}</>;
+	} else {
+		return (
+			<div className="prose text-black">
+				<div className="bg-neutral-100 p-6">
+					<h1 className="font-serif font-normal">Verify invite to view</h1>
+					<p>
+						The details of this venue are only available to verified guests.
+					</p>
+
+					<div className="not-prose">
+						<Button href={`/verify?redirect=${props.redirectUrl}`}>
+							Sign in
+						</Button>
+					</div>
+				</div>
+			</div>
+		);
+	}
+}
+
+export default async function VenueDetailsPage(props: VenueDetailsPageProps) {
+	return (
+		<main>
+			<div className="-z-50 flex h-full min-h-screen">
+				<div className="relative hidden w-full md:flex">
+					<div className="sticky top-0 h-screen w-full">
+						<div className="relative">
+							<Image
+								src={props.image}
+								alt="bg"
+								className="h-screen w-full object-cover"
+								placeholder="blur"
+							/>
+
+							<div className="absolute top-0 z-50 flex h-full w-full items-center justify-center">
+								<div className="mx-auto max-w-2xl p-4">
+									<h2 className="font-serif text-5xl text-white">
+										{props.imageTitle}
+									</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="w-full max-w-lg pt-16 sm:pt-0">
+					<NavbarSpace />
+					<div className="prose text-black">
+						<div className="p-6">
+							<h4 className="mt-0 text-lg font-medium">{props.preTitle}</h4>
+							<h1 className="font-serif font-normal">{props.title}</h1>
+							<p>{props.description}</p>
+						</div>
+					</div>
+
+					<HasAccess redirectUrl={props.redirectUrl}>
+						{props.children}
+					</HasAccess>
+				</div>
+			</div>
+		</main>
+	);
+}
