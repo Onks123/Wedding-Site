@@ -125,6 +125,14 @@ function Response(props: ResponseProps) {
 					</Text>
 				</Fragment>
 			)}
+
+			{/* remove this when RSVP is over */}
+			<div className="mt-3">
+				<UpdateStatus wedding={props.wedding} />
+			</div>
+			{props.additionalActions && props.isAttending && (
+				<div className="mt-2">{props.additionalActions}</div>
+			)}
 		</div>
 	);
 }
@@ -166,13 +174,30 @@ export default function RsvpCardNew(props: RsvpCardProps) {
 						</div>
 					</div>
 
-					<div className="flex max-w-60 items-center gap-3 pt-4 sm:pt-0">
+					{/* remove this when RSVP is over */}
+					{props.isAttending === null ? (
+						<form
+							className="flex flex-col items-stretch gap-3 pt-4 sm:pt-0"
+							action={(e) => respond(e, props.wedding)}
+						>
+							<Options />
+						</form>
+					) : (
+						<div className="flex max-w-60 items-center gap-3 pt-4 sm:pt-0">
+							<Response
+								wedding={props.wedding}
+								isAttending={props.isAttending}
+								additionalActions={props.additionalActions}
+							/>
+						</div>
+					)}
+					{/* <div className="flex max-w-60 items-center gap-3 pt-4 sm:pt-0">
 						<Response
 							wedding={props.wedding}
 							isAttending={props.isAttending}
 							additionalActions={props.additionalActions}
 						/>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>

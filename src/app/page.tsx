@@ -1,9 +1,9 @@
 import Image from "next/image";
-import BackgroundImage from "./background.jpg";
+import BackgroundImage from "@/lib/assets/images/background2.jpg";
 import FrontTitle from "./front-title";
-import Image3 from "./3.jpg";
-import Image4 from "./4.jpg";
-import Image6 from "./6.jpg";
+import Image4 from "@/lib/assets/images/kneel.jpg";
+import Image6 from "./WinterWonderland.jpg";
+import Image3 from "@/lib/assets/images/cool.jpg";
 import AboutImage from "@/lib/assets/images/about.jpg";
 import SideScreenPill from "./side-screen-pill";
 
@@ -29,8 +29,8 @@ export default function Home() {
 					<div className="rotate-180 [writing-mode:vertical-lr]">
 						<SideScreenPill
 							href="/london"
-							location="14.09.2024 — London"
-							date="2024-09-14"
+							location="16.03.2025 — London"
+							date="2025-03-16"
 						/>
 					</div>
 				</div>
@@ -38,9 +38,9 @@ export default function Home() {
 				<div className="absolute right-0 top-0 z-50 hidden h-dvh items-center pr-4 sm:flex">
 					<div className="[writing-mode:vertical-lr]">
 						<SideScreenPill
-							href="/rugby"
-							location="18.09.2024 — Rugby"
-							date="2024-09-18"
+							href="/london"
+							location="16.03.2025 — London"
+							date="2025-03-16"
 						/>
 					</div>
 				</div>
@@ -68,19 +68,12 @@ export default function Home() {
 						<h1 className="font-serif font-normal">Our Story</h1>
 						<p className="font-light">
 							{`
-              Samara and James met at W5 Church upon joining the worship team, just a few years after moving to Northampton. Little did they know, the leading of the Holy Spirit and a shared passion for worship would lay the foundation for something deeper.
+              Onkar and Zara met in the DMs.
               `}
 						</p>
 						<p className="font-light">
 							{`
-              As time went on their friendship blossomed and they became very
-              close friends and unbeknownst to them, God was gently nudging them
-              towards a future intertwined. Until finally in April 2023, God
-              spoke louder and clearer than ever that the person He had for them
-              both was each other. With spirits obedient and hearts aligned,
-              they embraced His plan and stepped into a love story written by
-              love Himself. And so, their journey together began, a testament to
-              God's faithfulness and the beauty of obedience.
+              WORK IN PROGRESS
               `}
 						</p>
 					</div>

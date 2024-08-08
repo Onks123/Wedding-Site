@@ -31,6 +31,7 @@ const Closed = () => {
 };
 
 export default async function RsvpPage() {
+	
 	const user = await currentUser();
 
 	if (!user) {
@@ -44,8 +45,10 @@ export default async function RsvpPage() {
 					Hey {user?.displayName}, we can’t wait to see you!
 				</h1>
 				<p className="mt-6 text-black">
-					{
-						"Thank you for taking the time to RSVP. We're so excited to celebrate with you. The RSVP window has now closed, but you can still view your responses below."
+					{	
+						//change this when RSVP is over
+						"We're so excited to celebrate with you. Please RSVP by Friday 11:59pm 12th July, 2024."
+						// "Thank you for taking the time to RSVP. We're so excited to celebrate with you. The RSVP window has now closed, but you can still view your responses below."
 					}
 				</p>
 				<SignOutButton />
@@ -62,8 +65,9 @@ export default async function RsvpPage() {
 						location: ["JK Banquet Hall", "15A Perry Vale, London SE23 2NE"],
 					}}
 					isAttending={user?.londonIsAttending}
+					additionalActions={<CaptureDietaryRequirements />}
 				/>
-				<RsvpCardNew
+				{/* <RsvpCardNew
 					directionLink="http://maps.apple.com/?q=Ashton+Lodge+Country+House,+Street+Ashton,+Rugby+CV23+0PJ"
 					wedding="rugby"
 					title="Rugby Wedding"
@@ -76,8 +80,7 @@ export default async function RsvpPage() {
 						],
 					}}
 					isAttending={user?.rugbyIsAttending}
-					additionalActions={<CaptureDietaryRequirements />}
-				/>
+				/> */}
 			</div>
 		</div>
 	);

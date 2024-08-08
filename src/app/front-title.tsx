@@ -45,7 +45,7 @@ export default function Title() {
 				transition={transition}
 				className="font-serif text-6xl font-light text-white md:text-8xl"
 			>
-				Samara
+				Onkar
 			</motion.h1>
 			<motion.h1
 				variants={right}
@@ -54,7 +54,7 @@ export default function Title() {
 				transition={transition}
 				className="font-serif text-6xl font-light text-white md:text-8xl"
 			>
-				James
+				Zara
 			</motion.h1>
 		</div>
 	);

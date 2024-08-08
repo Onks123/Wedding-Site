@@ -19,9 +19,9 @@ export default function DesktopNavbar() {
 			<div className="sm:flex sm:items-center sm:justify-center">
 				<nav className="z-50 flex h-11 items-center justify-between whitespace-nowrap rounded-b-md border border-black/10 bg-white/90 pl-4 text-sm font-medium text-black shadow-md backdrop-blur-md sm:justify-normal sm:rounded-full sm:shadow-none">
 					<div className="flex items-center space-x-4">
-						<NavbarLink href="/">SJ</NavbarLink>
+						<NavbarLink href="/">O&Z</NavbarLink>
 						<NavbarLink href="/london">London</NavbarLink>
-						<NavbarLink href="/rugby">Rugby</NavbarLink>
+						{/* <NavbarLink href="/rugby">Rugby</NavbarLink> */}
 						<NavbarLink href="https://www.johnlewis.com/wish-list/TFTNJNP">
 							Registry
 							<ArrowTopRightOnSquareIcon className="-mt-1 ml-1 hidden h-4 w-4 sm:inline-block" />

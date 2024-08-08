@@ -39,7 +39,7 @@ export function CaptureDietaryRequirements() {
 						Please note that we require this form to be returned to us at least
 						8 weeks before our wedding day. Please email the completed form to{" "}
 						<TextLink href="mailto:dietaryrequirements@sj24.co?subject=Ruby Dietary Requirements Form">
-							dietaryrequirements@sj24.co.
+							onkarandzara@gmail.com
 						</TextLink>
 					</Text>
 				</DialogBody>
