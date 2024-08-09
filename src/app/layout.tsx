@@ -9,10 +9,10 @@ import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
 	title: {
-		template: "%s | Samara & James",
-		default: "Samara & James",
+		template: "%s | Onkar & Zara",
+		default: "Onkar & Zara",
 	},
-	description: "September 2024",
+	description: "March 2025",
 };
 
 export default function RootLayout({
