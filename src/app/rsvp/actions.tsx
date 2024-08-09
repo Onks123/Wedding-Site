@@ -5,7 +5,7 @@ import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
 import { track } from "@vercel/analytics/server";
 
-type Wedding = "london" | "rugby";
+type Wedding = "ceremony" | "reception";
 
 export const respond = async (formData: FormData, wedding: Wedding) => {
 	"use server";

@@ -18,7 +18,7 @@ const Closed = () => {
 				<p className="mt-6 text-black">
 					As the RSVP deadline for our wedding has now passed, we unfortunately
 					can no longer accept confirmations for attendance. We would have loved
-					for you to join us on our special day, but the finalised guest list
+					for you to join us on our special day, but the final guest list
 					has now been submitted. Your presence will be truly missed. Thank you
 					for understanding.
 					<br />
@@ -56,31 +56,28 @@ export default async function RsvpPage() {
 
 			<div className="mx-auto max-w-xl space-y-8 pt-16">
 				<RsvpCardNew
-					directionLink="http://maps.apple.com/?q=JK+Banquet+Hall,+15A+Perry+Vale,+London+SE23+2NE"
-					wedding="london"
-					title="London Wedding"
-					subtitle="Saturday 14th September 2024"
+					directionLink="https://www.google.com/maps/dir//Prince+Charles+Ave,+Orsett,+Grays+RM16+3HS/@51.5158374,0.2954933,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47d8b801ccafe345:0x6136e805ecefafaa!2m2!1d0.3778935!2d51.5158663?entry=ttu"
+					wedding="ceremony"
+					title="Wedding Ceremony"
+					subtitle="Sunday 16th March 2025"
 					details={{
-						time: "3:30 PM",
-						location: ["JK Banquet Hall", "15A Perry Vale, London SE23 2NE"],
+						time: "1:00 PM",
+						location: ["Orsett Hall", "Prince Charles Avenue, Orsett, Essex, RM16 3HS"],
 					}}
-					isAttending={user?.londonIsAttending}
+					isAttending={user?.ceremonyIsAttending}
 					additionalActions={<CaptureDietaryRequirements />}
 				/>
-				{/* <RsvpCardNew
-					directionLink="http://maps.apple.com/?q=Ashton+Lodge+Country+House,+Street+Ashton,+Rugby+CV23+0PJ"
-					wedding="rugby"
-					title="Rugby Wedding"
-					subtitle="Wednesday 18th September 2024"
+				<RsvpCardNew
+					directionLink="https://www.google.com/maps/dir//Prince+Charles+Ave,+Orsett,+Grays+RM16+3HS/@51.5158374,0.2954933,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47d8b801ccafe345:0x6136e805ecefafaa!2m2!1d0.3778935!2d51.5158663?entry=ttu"
+					wedding="reception"
+					title="Evening Reception"
+					subtitle="Sunday 16th March 2025"
 					details={{
-						time: "1:45 PM",
-						location: [
-							"Ashton Lodge Country House",
-							"Street Ashton, Rugby CV23 0PJ",
-						],
+						time: "5:00 PM",
+						location: ["Orsett Hall", "Prince Charles Avenue, Orsett, Essex, RM16 3HS"],
 					}}
-					isAttending={user?.rugbyIsAttending}
-				/> */}
+					isAttending={user?.receptionIsAttending}
+				/>
 			</div>
 		</div>
 	);

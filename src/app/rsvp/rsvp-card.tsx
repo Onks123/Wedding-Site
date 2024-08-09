@@ -61,7 +61,7 @@ type RsvpCardProps = {
 		location: string[];
 	};
 	isAttending?: boolean | null;
-	wedding: "london" | "rugby";
+	wedding: "ceremony" | "reception";
 	additionalActions?: ReactNode;
 	directionLink: string;
 };
@@ -69,11 +69,11 @@ type RsvpCardProps = {
 type ResponseProps = {
 	isAttending?: boolean | null;
 	additionalActions?: ReactNode;
-	wedding: "london" | "rugby";
+	wedding: "ceremony" | "reception";
 };
 
 type UpdateStatusProps = {
-	wedding: "london" | "rugby";
+	wedding: "ceremony" | "reception";
 };
 
 function UpdateStatus(props: UpdateStatusProps) {

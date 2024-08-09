@@ -20,8 +20,8 @@ model Invite {
 model GuestMeta {
   id                String    @id
   name              String?
-  londonIsAttending Boolean?
-  rugbyIsAttending  Boolean?
+  ceremonyIsAttending Boolean?
+  receptionIsAttending  Boolean?
   verified          Boolean   @default(false)
   verifiedAt        DateTime?
   verifiedWith      String?
@@ -32,8 +32,8 @@ model GuestMeta {
 
 model Guest {
   id                String   @id
-  londonIsAttending Boolean?
-  rugbyIsAttending  Boolean?
+  ceremonyIsAttending Boolean?
+  receptionIsAttending  Boolean?
   fullName          String?
   displayName       String?
 

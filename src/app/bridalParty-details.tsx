@@ -4,13 +4,12 @@ import type { ReactNode } from "react";
 import { Button } from "@/components/catalyst/button";
 import { currentUser } from "@/lib/auth";
 
-type VenueDetailsPageProps = {
+type PartyDetailsPageProps = {
 	title: string;
 	description: string;
 	image: StaticImageData;
 	children: ReactNode;
 	redirectUrl: string;
-	imageTitle: string;
 	preTitle: string;
 };
 
@@ -43,7 +42,7 @@ async function HasAccess(props: HasAccessProps) {
 	}
 }
 
-export default async function VenueDetailsPage(props: VenueDetailsPageProps) {
+export default async function PartyDetailsPage(props: PartyDetailsPageProps) {
 	return (
 		<main>
 			<div className="-z-50 flex h-full min-h-screen">
@@ -56,14 +55,6 @@ export default async function VenueDetailsPage(props: VenueDetailsPageProps) {
 								className="h-screen w-full object-cover"
 								placeholder="blur"
 							/>
-
-							<div className="absolute top-0 z-50 flex h-full w-full items-center justify-center">
-								<div className="mx-auto max-w-6xl p-8 backdrop-blur-md" >
-									<h2 className="font-serif text-6xl text-white font-medium">
-										{props.imageTitle}
-									</h2>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>

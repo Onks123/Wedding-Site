@@ -50,7 +50,7 @@ const faqs = [
 		id: 8,
 		question: "Can we send our wedding gift to you after the wedding?",
 		answer:
-			"Please email wedding@sj24.co and we will inform you how you can get a gift to us.",
+			"Please email onkarandzara@gmail.com and we will inform you how you can get a gift to us.",
 	},
 	{
 		id: 9,
@@ -95,8 +95,8 @@ export default async function Faq() {
 				<p className="mt-6 text-balance text-black">
 					Have a different question and can’t find the answer you’re looking
 					for? Reach out to{" "}
-					<a href="mailto:wedding@sj24.co" className="font-medium underline">
-						wedding@sj24.co
+					<a href="mailto:onkarandzara@gmail.com" className="font-medium underline">
+						onkarandzara@gmail.com
 					</a>{" "}
 					we’ll get back to you as soon as we can.
 				</p>

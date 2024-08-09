@@ -28,8 +28,8 @@ export default function Home() {
 				<div className="absolute top-0 z-50 hidden h-dvh items-center pl-4 sm:flex">
 					<div className="rotate-180 [writing-mode:vertical-lr]">
 						<SideScreenPill
-							href="/london"
-							location="16.03.2025 — London"
+							href="/wedding"
+							location="16.03.2025 — Essex"
 							date="2025-03-16"
 						/>
 					</div>
@@ -38,8 +38,8 @@ export default function Home() {
 				<div className="absolute right-0 top-0 z-50 hidden h-dvh items-center pr-4 sm:flex">
 					<div className="[writing-mode:vertical-lr]">
 						<SideScreenPill
-							href="/london"
-							location="16.03.2025 — London"
+							href="/wedding"
+							location="16.03.2025 — Essex"
 							date="2025-03-16"
 						/>
 					</div>

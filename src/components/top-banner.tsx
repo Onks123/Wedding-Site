@@ -13,7 +13,7 @@ export default function TopBanner() {
 					>
 						<circle cx={1} cy={1} r={1} />
 					</svg>
-					only {formatDistance(new Date("2024-07-13"), new Date())} left to RSVP
+					only {formatDistance(new Date("2024-09-10"), new Date())} left to RSVP
 				</p>
 			</div>
 		</div>
