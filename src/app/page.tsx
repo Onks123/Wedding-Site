@@ -58,7 +58,7 @@ export default function Home() {
 						{/* <enhanced:img
               src={PortraitImage}
               className="object-cover object-top"
-              alt="us together"
+              alt="us togethe"
             /> */}
 					</div>
 				</div>
