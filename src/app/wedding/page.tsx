@@ -13,20 +13,11 @@ import { ArrowTopRightOnSquareIcon } from "@heroicons/react/16/solid";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Venue of white wedding",
+	title: "Wedding",
 };
 
 const description = `
-The upcoming London wedding will be a celebration deeply rooted in
-tradition, specifically honoring Samara's Nigerian heritage. Despite
-Samara being of Nigerian and Jamaican descent, the day will solely
-embrace Nigerian traditions as Jamaica does not have specific wedding
-customs. James and Samara’s choice to have a traditional Nigerian ceremony is
-common practice in Samara’s culture and highlights the significance of
-acknowledging and preserving her roots. There will be an array
-of food options available on the day from both countries and in doing
-this, there will be a meaningful representation of her cultural
-background as celebration of her heritage.
+TBC
 `;
 
 const hotels = [
@@ -110,7 +101,7 @@ export default function Wedding() {
 				</div>
 				<div className="py-8 bg-neutral-100">
 					<h1 className="px-8 font-serif font-normal">Hotel Recommendations</h1>
-					<Table className="not-prose sm:px-8">
+					<Table className="not-prose sm:px-10">
 						<TableHead>
 							<TableRow>
 								<TableHeader>Name</TableHeader>
