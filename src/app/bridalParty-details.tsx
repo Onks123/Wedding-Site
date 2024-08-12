@@ -11,6 +11,8 @@ type PartyDetailsPageProps = {
 	children: ReactNode;
 	redirectUrl: string;
 	preTitle: string;
+	imageTitleBig: string;
+	imageTitleSmall: string;
 };
 
 type HasAccessProps = {
@@ -55,11 +57,35 @@ export default async function PartyDetailsPage(props: PartyDetailsPageProps) {
 								className="h-screen w-full object-cover"
 								placeholder="blur"
 							/>
+
+							<div className="absolute top-0 z-50 flex h-full w-full items-center justify-center">
+								<div className="mx-auto max-w-6xl p-8 backdrop-blur-md" >
+									<h2 className="font-serif text-6xl text-white font-medium">
+										{props.imageTitleBig}
+									</h2>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div className="w-full max-w-lg pt-16 sm:pt-0">
 					<NavbarSpace />
+					<div className="relative">
+							<Image
+								src={props.image}
+								alt="bg"
+								className="h-auto w-auto object-contain"
+								placeholder="blur"
+							/>
+
+							<div className="absolute top-0 z-50 flex h-full w-full items-center justify-center">
+								<div className="mx-auto max-w-6xl p-4 backdrop-blur-md" >
+									<h2 className="font-serif text-5xl text-white font-medium">
+										{props.imageTitleSmall}
+									</h2>
+								</div>
+							</div>
+					</div>
 					<div className="prose text-black">
 						<div className="p-6">
 							<h4 className="mt-0 text-lg font-medium">{props.preTitle}</h4>
