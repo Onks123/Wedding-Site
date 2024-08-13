@@ -29,7 +29,7 @@ export default function DesktopNavbar() {
 		<div className="fixed z-50 grid w-full sm:h-20 sm:grid-cols-3 sm:items-center sm:justify-between sm:px-8">
 			<div />
 			<div className="sm:flex sm:items-center sm:justify-center">
-				<nav className="z-50 flex h-11 items-center justify-between whitespace-nowrap rounded-b-md border border-black/10 bg-white/90 pl-4 text-sm font-medium text-black shadow-md backdrop-blur-md sm:justify-normal sm:rounded-full sm:shadow-none">
+				<nav className="z-50 flex h-11 items-center justify-between whitespace-nowrap rounded-b-md border border-black/10 bg-white/90 pl-4 text-base font-medium text-black shadow-md backdrop-blur-md sm:justify-normal sm:rounded-full sm:shadow-none">
 					<div className="flex items-center space-x-4">
 						<NavbarLink href="/">O&Z</NavbarLink>
 						<NavbarLink href="/wedding">Wedding</NavbarLink>
