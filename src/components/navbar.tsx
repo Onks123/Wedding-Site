@@ -13,9 +13,10 @@ import {
 	DropdownSection,
 } from "@/components/catalyst/dropdown";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
+import { animate } from "framer-motion";
 
 export function NavbarSpace() {
-	return <div className="h-11 sm:h-15" />;
+	return <div className="h-11 sm:h-10" />;
 }
 
 function NavbarLink(props: LinkProps & { children: React.ReactNode }) {
@@ -34,7 +35,7 @@ export default function DesktopNavbar() {
 						<NavbarLink href="/bridalParty">Bridal Party</NavbarLink>
 						<NavbarLink href="https://www.johnlewis.com/wish-list/TFTNJNP">
 							Registry
-							<ArrowTopRightOnSquareIcon className="animate-wiggle -mt-1 ml-1 hidden h-4 w-4 sm:inline-block" />
+							<ArrowTopRightOnSquareIcon className="animate-wiggle -mt-1 ml-1 h-4 w-4 inline-block" />
 						</NavbarLink>
 						<Dropdown>
 							<DropdownButton className="flex h-11 items-center rounded-b-md bg-white px-1.5 pr-3 text-white">
@@ -46,7 +47,7 @@ export default function DesktopNavbar() {
 									<DropdownHeading>
 										More Items
 									</DropdownHeading>
-									<DropdownItem href="/rsvp" className="animate-bounce flex h-full w-full text-white bg-white/100 " >
+									<DropdownItem href="/rsvp" className="animate-bounce flex h-full w-full text-white bg-neutral-200 " >
 										<TicketIcon className="h-5 w-3 -rotate-45 fill-black" />
 										RSVP
 									</DropdownItem>

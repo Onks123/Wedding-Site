@@ -102,7 +102,7 @@ export default function Wedding() {
 				</div>
 				<div className="py-8 bg-neutral-100 gap-x-1">
 					<h1 className="px-8 font-serif font-normal">Hotel Recommendations</h1>
-					<Table className="not-prose px-20 sm:table-fixed">
+					<Table className="not-prose px-11 sm:table-fixed">
 						<TableHead>
 							<TableRow>
 								<TableHeader>Name</TableHeader>
