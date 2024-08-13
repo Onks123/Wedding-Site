@@ -1,5 +1,6 @@
 import { authenticate, currentUser } from "@/lib/auth";
 import type { Metadata } from "next";
+import SignOutButton from "../rsvp/sign-out";
 
 export const metadata: Metadata = {
 	title: "FAQs",
@@ -9,7 +10,7 @@ const faqs = [
 	{
 		id: 1,
 		question: "What date should I RSVP by?",
-		answer: "Please RSVP by Thursday 18th July 2024.",
+		answer: "Please RSVP by Thursday 10th October 2024.",
 	},
 	{
 		id: 2,
@@ -89,23 +90,23 @@ export default async function Faq() {
 	return (
 		<div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
 			<div className="mx-auto max-w-2xl text-center">
-				<h2 className="font-serif text-4xl text-black">
+				<h2 className="font-serif pt-1 text-4xl text-black">
 					Frequently asked questions
 				</h2>
-				<p className="mt-6 text-balance text-black">
+				<p className="mt-6 pt-3 text-balance text-black">
 					Have a different question and can’t find the answer you’re looking
 					for? Reach out to{" "}
 					<a href="mailto:onkarandzara@gmail.com" className="font-medium underline">
 						onkarandzara@gmail.com
 					</a>{" "}
-					we’ll get back to you as soon as we can.
+					and we’ll get back to you as soon as we can.
 				</p>
 			</div>
-			<div className="mt-20">
-				<dl className="space-y-16 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:gap-x-10">
+			<div className="mt-14">
+				<dl className="space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:gap-x-10">
 					{faqs.map((faq) => (
 						<div key={faq.id}>
-							<dt className="text-base">{faq.question}</dt>
+							<dt className="text-base underline">{faq.question}</dt>
 							<dd className="mt-2 text-base font-light text-gray-900">
 								{faq.answer}
 							</dd>
@@ -113,6 +114,7 @@ export default async function Faq() {
 					))}
 				</dl>
 			</div>
+			<SignOutButton/>
 		</div>
 	);
 }

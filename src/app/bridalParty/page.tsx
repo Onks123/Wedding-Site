@@ -42,8 +42,8 @@ export default async function BridalParty() {
 	return (
 		<PartyDetailsPage
 			redirectUrl="/bridalParty"
-			preTitle="We are celebrating with our"
-			title="Wedding Party"
+			preTitle="We are celebrating with our amazing"
+			title="Bridesmaids & Groomsmen"
 			imageTitleBig="Wedding Party"
 			imageTitleSmall="Wedding Party"
 			description={description}

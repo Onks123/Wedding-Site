@@ -13,10 +13,11 @@ import {
 	DropdownSection,
 } from "@/components/catalyst/dropdown";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
+import { NavbarDivider } from "./catalyst/navbar";
 
 
 export function NavbarSpace() {
-	return <div className="h-1 sm:h-1" />;
+	return <div className="" />;
 }
 
 function NavbarLink(props: LinkProps & { children: React.ReactNode }) {
@@ -29,7 +30,7 @@ export default function DesktopNavbar() {
 			<div />
 			<div className="sm:flex sm:items-center sm:justify-center">
 				<nav className="z-50 flex h-11 items-center justify-between whitespace-nowrap rounded-b-md border border-black/10 bg-white/90 pl-4 text-sm font-medium text-black shadow-md backdrop-blur-md sm:justify-normal sm:rounded-full sm:shadow-none">
-					<div className="flex items-center space-x-5">
+					<div className="flex items-center space-x-4">
 						<NavbarLink href="/">O&Z</NavbarLink>
 						<NavbarLink href="/wedding">Wedding</NavbarLink>
 						<NavbarLink href="/bridalParty">Party</NavbarLink>
@@ -37,6 +38,7 @@ export default function DesktopNavbar() {
 							Registry
 							<ArrowTopRightOnSquareIcon className="animate-wiggle -mt-1 ml-1 h-4 w-4 inline-block" />
 						</NavbarLink>
+						<NavbarDivider></NavbarDivider>
 						<Dropdown>
 							<DropdownButton className="flex h-11 items-center rounded-b-md bg-white px-1.5 pr-3 text-white">
 								More

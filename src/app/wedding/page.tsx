@@ -101,8 +101,8 @@ export default function Wedding() {
 					</pre>
 				</div>
 				<div className="bg-neutral-100 p-8">
-					<h1 className="font-serif font-normal">Hotel Recommendation</h1>
-					<Table className="not-prose sm:px-12">
+					<h1 className="font-serif font-normal">Hotel Recommendations</h1>
+					<Table className="not-prose sm:px-14">
 						<TableHead>
 							<TableRow>
 								<TableHeader>Name</TableHeader>

@@ -40,21 +40,25 @@ export default async function RsvpPage() {
 
 	return (
 		<div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-			<div className="mx-auto max-w-2xl text-center">
-				<h1 className="font-serif text-4xl text-black">
+			<div className="mx-auto max-w-2xl text-center space-y-1">
+				<h1 className="font-serif text-4xl text-black pt-10">
 					Hey {user?.displayName}, we can’t wait to see you!
 				</h1>
-				<p className="mt-6 text-black">
+				<p className="mt-6 pt-7 text-black">
 					{	
 						//change this when RSVP is over
-						"We're so excited to celebrate with you. Please RSVP by Friday 11:59pm 10th October, 2024."
+						"We're so excited to celebrate with you!"
 						// "Thank you for taking the time to RSVP. We're so excited to celebrate with you. The RSVP window has now closed, but you can still view your responses below."
 					}
 				</p>
-				<SignOutButton />
+				<p className="mt-6 pb-10 text-black">
+					{	
+						"Please RSVP by Friday 11:59pm 10th October, 2024."
+					}
+				</p>
 			</div>
 
-			<div className="mx-auto max-w-xl space-y-8 pt-16">
+			<div className="mx-auto max-w-xl space-y-6 pt-13">
 				<RsvpCardNew
 					directionLink="https://www.google.com/maps/dir//Prince+Charles+Ave,+Orsett,+Grays+RM16+3HS/@51.5158374,0.2954933,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47d8b801ccafe345:0x6136e805ecefafaa!2m2!1d0.3778935!2d51.5158663?entry=ttu"
 					wedding="ceremony"
@@ -78,6 +82,7 @@ export default async function RsvpPage() {
 					}}
 					isAttending={user?.receptionIsAttending}
 				/>
+				<SignOutButton/>
 			</div>
 		</div>
 	);
