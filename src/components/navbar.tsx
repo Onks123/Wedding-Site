@@ -36,7 +36,7 @@ export default function DesktopNavbar() {
 						<NavbarLink href="/bridalParty">Party</NavbarLink>
 						<NavbarLink href="https://www.johnlewis.com/wish-list/TFTNJNP">
 							Registry
-							<ArrowTopRightOnSquareIcon className="animate-wiggle -mt-1 ml-1 h-4 w-4 inline-block" />
+							<ArrowTopRightOnSquareIcon className="animate-wiggle -mt-1 ml-1 h-4 w-4 inline-block" /> ||
 						</NavbarLink>
 						{/* <NavbarDivider></NavbarDivider> */}
 						<Dropdown>

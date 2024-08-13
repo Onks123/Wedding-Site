@@ -102,7 +102,7 @@ export default function Wedding() {
 					<pre className="bg-white text-black prose font-sans font-"><a href='https://www.google.com/maps/dir//Prince+Charles+Ave,+Orsett,+Grays+RM16+3HS/@51.5158374,0.2954933,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47d8b801ccafe345:0x6136e805ecefafaa!2m2!1d0.3778935!2d51.5158663?entry=ttu'>{'Orsett Hall \nPrince Charles Avenue \nOrsett \nEssex \nRM16 3HS'}</a>
 					</pre>
 				</div>
-				<div className="bg-neutral-100 p-8 pr-10">
+				<div className="bg-neutral-100 p-8 pr-5">
 					<h1 className="font-serif font-normal">Hotels</h1>
 					<Table className="flex not-prose sm:-px-20 table-auto">
 						<TableHead>
