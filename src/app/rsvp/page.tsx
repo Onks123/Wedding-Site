@@ -44,16 +44,16 @@ export default async function RsvpPage() {
 				<h1 className="font-serif text-4xl text-black pt-10">
 					Hey {user?.displayName}, we can’t wait to see you!
 				</h1>
-				<p className="mt-6 pt-7 text-black">
+				{/* <p className="mt-6 pt-7 text-black">
 					{	
 						//change this when RSVP is over
 						"We're so excited to celebrate with you!"
 						// "Thank you for taking the time to RSVP. We're so excited to celebrate with you. The RSVP window has now closed, but you can still view your responses below."
 					}
-				</p>
-				<p className="mt-6 pb-10 text-black">
+				</p> */}
+				<p className="mt-6 pt-7 pb-10 text-black">
 					{	
-						"Please RSVP by Friday 11:59pm 10th October, 2024."
+						"Please RSVP by Friday 10th October 2024!"
 					}
 				</p>
 			</div>
