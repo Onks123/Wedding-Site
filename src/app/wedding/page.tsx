@@ -22,17 +22,17 @@ TBC
 
 const hotels = [
 	{
-		name: "Premier Inn T East",
+		name: "Premier Inn East",
 		distance: "10 min",
 		link: "https://www.premierinn.com/gb/en/hotels/england/essex/thurrock/thurrock-east.html",
 	},
 	{
-		name: "Travelodge T Lakeside",
+		name: "Travelodge Lakeside",
 		distance: "12 min",
 		link: "https://www.travelodge.co.uk/hotels/627/Thurrock-Lakeside-hotel",
 	},
 	{
-		name: "Premier Inn T West",
+		name: "Premier Inn West",
 		distance: "14 min",
 		link: "https://www.premierinn.com/gb/en/hotels/england/essex/thurrock/thurrock-west.html",
 	},
@@ -102,7 +102,7 @@ export default function Wedding() {
 				</div>
 				<div className="bg-neutral-100 p-8">
 					<h1 className="font-serif font-normal">Hotel Recommendation</h1>
-					<Table className="not-prose sm:px-8">
+					<Table className="not-prose sm:px-12">
 						<TableHead>
 							<TableRow>
 								<TableHeader>Name</TableHeader>
