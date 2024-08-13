@@ -16,7 +16,7 @@ import { ChevronDownIcon } from "@heroicons/react/16/solid";
 
 
 export function NavbarSpace() {
-	return <div className="h-2 sm:h-2" />;
+	return <div className="h-1 sm:h-1" />;
 }
 
 function NavbarLink(props: LinkProps & { children: React.ReactNode }) {
@@ -29,7 +29,7 @@ export default function DesktopNavbar() {
 			<div />
 			<div className="sm:flex sm:items-center sm:justify-center">
 				<nav className="z-50 flex h-11 items-center justify-between whitespace-nowrap rounded-b-md border border-black/10 bg-white/90 pl-4 text-sm font-medium text-black shadow-md backdrop-blur-md sm:justify-normal sm:rounded-full sm:shadow-none">
-					<div className="flex items-center space-x-3">
+					<div className="flex items-center md:space-x-5 sm:space-x-3">
 						<NavbarLink href="/">O&Z</NavbarLink>
 						<NavbarLink href="/wedding">Wedding</NavbarLink>
 						<NavbarLink href="/bridalParty">Party</NavbarLink>
