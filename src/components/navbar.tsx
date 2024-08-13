@@ -17,7 +17,7 @@ import { NavbarDivider } from "./catalyst/navbar";
 
 
 export function NavbarSpace() {
-	return <div className="" />;
+	return <div className="sm:-h-3" />;
 }
 
 function NavbarLink(props: LinkProps & { children: React.ReactNode }) {
