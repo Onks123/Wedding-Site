@@ -83,7 +83,7 @@ function UpdateStatus(props: UpdateStatusProps) {
 				Change
 				<ChevronDownIcon />
 			</DropdownButton>
-			<DropdownMenu>
+			<DropdownMenu className="flex items-center">
 				<DropdownSection>
 					<DropdownHeading className="capitalize">
 						{props.wedding} RSVP

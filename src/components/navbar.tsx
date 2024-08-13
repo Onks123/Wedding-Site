@@ -39,10 +39,6 @@ export default function DesktopNavbar() {
 						<Dropdown>
 							<DropdownButton className="flex h-11 items-center rounded-b-md bg-white px-1.5 pr-3 text-white">
 								More
-								<span className="relative flex h-3 w-3">
-									<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-									<span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
-								</span>
 								<ChevronDownIcon />
 							</DropdownButton>
 							<DropdownMenu className="bg-white/90">
@@ -50,11 +46,11 @@ export default function DesktopNavbar() {
 									<DropdownHeading>
 										More Items
 									</DropdownHeading>
-									<DropdownItem href="/rsvp" className="animate-bounce flex h-8 w-full text-white bg-white/100 " >
+									<DropdownItem href="/rsvp" className="animate-bounce flex h-full w-full text-white bg-white/100 " >
 										<TicketIcon className="h-5 w-3 -rotate-45 fill-black" />
 										RSVP
 									</DropdownItem>
-									<DropdownItem href="/faq" className="flex h-8 w-full">
+									<DropdownItem href="/faq" className="flex h-full w-full">
 										<InboxIcon className="h-5 w-1 fill-black" />
 										FAQs
 									</DropdownItem>

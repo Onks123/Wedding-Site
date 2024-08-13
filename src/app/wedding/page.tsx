@@ -62,7 +62,8 @@ export default function Wedding() {
 			redirectUrl="/wedding"
 			preTitle="We are celebrating our big day on"
 			title="Sunday 16th March"
-			imageTitle="The Wedding Day"
+			imageTitleBig="The Wedding Day"
+			imageTitleSmall="The Wedding Day"
 			description={description}
 			image={LocationImage}
 		>
@@ -99,9 +100,9 @@ export default function Wedding() {
 					<pre className="bg-white text-black prose font-sans font-"><a href='https://www.google.com/maps/dir//Prince+Charles+Ave,+Orsett,+Grays+RM16+3HS/@51.5158374,0.2954933,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47d8b801ccafe345:0x6136e805ecefafaa!2m2!1d0.3778935!2d51.5158663?entry=ttu'>{'Orsett Hall \nPrince Charles Avenue \nOrsett \nEssex \nRM16 3HS'}</a>
 					</pre>
 				</div>
-				<div className="py-8 bg-neutral-100">
+				<div className="py-8 bg-neutral-100 gap-x-1">
 					<h1 className="px-8 font-serif font-normal">Hotel Recommendations</h1>
-					<Table className="not-prose sm:px-10">
+					<Table className="not-prose px-20 sm:table-fixed">
 						<TableHead>
 							<TableRow>
 								<TableHeader>Name</TableHeader>
@@ -120,7 +121,7 @@ export default function Wedding() {
 											<ArrowTopRightOnSquareIcon />
 										</Button>
 									</TableCell>
-								</TableRow>
+								</TableRow>	
 							))}
 						</TableBody>
 					</Table>
