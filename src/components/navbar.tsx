@@ -2,10 +2,20 @@ import Link, { type LinkProps } from "next/link";
 import {
 	ArrowTopRightOnSquareIcon,
 	TicketIcon,
+	InboxIcon,
 } from "@heroicons/react/16/solid";
+import {
+	Dropdown,
+	DropdownButton,
+	DropdownHeading,
+	DropdownItem,
+	DropdownMenu,
+	DropdownSection,
+} from "@/components/catalyst/dropdown";
+import { ChevronDownIcon } from "@heroicons/react/16/solid";
 
 export function NavbarSpace() {
-	return <div className="h-11 sm:h-20" />;
+	return <div className="h-11 sm:h-15" />;
 }
 
 function NavbarLink(props: LinkProps & { children: React.ReactNode }) {
@@ -24,18 +34,43 @@ export default function DesktopNavbar() {
 						<NavbarLink href="/bridalParty">Bridal Party</NavbarLink>
 						<NavbarLink href="https://www.johnlewis.com/wish-list/TFTNJNP">
 							Registry
-							<ArrowTopRightOnSquareIcon className="-mt-1 ml-1 hidden h-4 w-4 sm:inline-block" />
+							<ArrowTopRightOnSquareIcon className="animate-wiggle -mt-1 ml-1 hidden h-4 w-4 sm:inline-block" />
 						</NavbarLink>
-						<NavbarLink href="/faq">FAQs</NavbarLink>
+						<Dropdown>
+							<DropdownButton className="flex h-11 items-center rounded-b-md bg-white px-1.5 pr-3 text-white">
+								More
+								<span className="relative flex h-3 w-3">
+									<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+									<span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+								</span>
+								<ChevronDownIcon />
+							</DropdownButton>
+							<DropdownMenu className="bg-white/90">
+								<DropdownSection>
+									<DropdownHeading>
+										More Items
+									</DropdownHeading>
+									<DropdownItem href="/rsvp" className="animate-bounce flex h-8 w-full text-white bg-white/100 " >
+										<TicketIcon className="h-5 w-3 -rotate-45 fill-black" />
+										RSVP
+									</DropdownItem>
+									<DropdownItem href="/faq" className="flex h-8 w-full">
+										<InboxIcon className="h-5 w-1 fill-black" />
+										FAQs
+									</DropdownItem>
+								</DropdownSection>
+							</DropdownMenu>
+						</Dropdown>
+						{/* <NavbarLink href="/faq">FAQs</NavbarLink> */}
 					</div>
 
-					<Link
+					{/* <Link
 						href="/rsvp"
 						className="ml-4 mr-1.5 flex h-8 items-center rounded-full border border-dashed border-black/30 bg-black px-1.5 pr-3 text-white"
 					>
 						<TicketIcon className="mr-2 h-5 w-5 -rotate-45 p-px" />
 						RSVP
-					</Link>
+					</Link> */}
 				</nav>
 			</div>
 			<div />

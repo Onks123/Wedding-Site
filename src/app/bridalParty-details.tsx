@@ -79,7 +79,7 @@ export default async function PartyDetailsPage(props: PartyDetailsPageProps) {
 							/>
 
 							<div className="absolute top-0 z-50 flex h-full w-full items-center justify-center">
-								<div className="mx-auto max-w-6xl p-4 backdrop-blur-md" >
+								<div className="mx-auto max-w-6xl p-4 backdrop-blur-md overflow-hidden" >
 									<h2 className="font-serif text-5xl text-white font-medium">
 										{props.imageTitleSmall}
 									</h2>
