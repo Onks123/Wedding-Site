@@ -13,10 +13,10 @@ import {
 	DropdownSection,
 } from "@/components/catalyst/dropdown";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
-import { animate } from "framer-motion";
+
 
 export function NavbarSpace() {
-	return <div className="h-11 sm:h-10" />;
+	return <div className="h-2 sm:h-2" />;
 }
 
 function NavbarLink(props: LinkProps & { children: React.ReactNode }) {
@@ -29,10 +29,10 @@ export default function DesktopNavbar() {
 			<div />
 			<div className="sm:flex sm:items-center sm:justify-center">
 				<nav className="z-50 flex h-11 items-center justify-between whitespace-nowrap rounded-b-md border border-black/10 bg-white/90 pl-4 text-sm font-medium text-black shadow-md backdrop-blur-md sm:justify-normal sm:rounded-full sm:shadow-none">
-					<div className="flex items-center space-x-4">
+					<div className="flex items-center space-x-3">
 						<NavbarLink href="/">O&Z</NavbarLink>
 						<NavbarLink href="/wedding">Wedding</NavbarLink>
-						<NavbarLink href="/bridalParty">Bridal Party</NavbarLink>
+						<NavbarLink href="/bridalParty">Party</NavbarLink>
 						<NavbarLink href="https://www.johnlewis.com/wish-list/TFTNJNP">
 							Registry
 							<ArrowTopRightOnSquareIcon className="animate-wiggle -mt-1 ml-1 h-4 w-4 inline-block" />

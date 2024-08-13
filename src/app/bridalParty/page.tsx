@@ -43,9 +43,9 @@ export default async function BridalParty() {
 		<PartyDetailsPage
 			redirectUrl="/bridalParty"
 			preTitle="We are celebrating with our"
-			title="Bridal Party"
-			imageTitleBig="Bridal Party"
-			imageTitleSmall="Bridal Party"
+			title="Wedding Party"
+			imageTitleBig="Wedding Party"
+			imageTitleSmall="Wedding Party"
 			description={description}
 			image={BridalPImage}
 		>

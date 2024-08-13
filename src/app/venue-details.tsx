@@ -78,8 +78,8 @@ export default async function VenueDetailsPage(props: VenueDetailsPageProps) {
 								placeholder="blur"
 							/>
 
-							<div className="absolute top-0 z-50 flex h-full w-full items-center justify-center">
-								<div className="mx-auto max-w-6xl p-1 backdrop-blur-md overflow-hidden" >
+							<div className="absolute top-0 z-49 flex h-full w-full items-center justify-center">
+								<div className="mx-auto max-w-6xl p-1 backdrop-blur-md" >
 									<h2 className="font-serif text-2xl text-white font-medium">
 										{props.imageTitleSmall}
 									</h2>

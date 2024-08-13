@@ -23,7 +23,7 @@ const Closed = () => {
 					for understanding.
 					<br />
 					<br />
-					Love, Samara and James
+					Love, Onkar and Zara
 				</p>
 			</div>
 		</div>
@@ -47,7 +47,7 @@ export default async function RsvpPage() {
 				<p className="mt-6 text-black">
 					{	
 						//change this when RSVP is over
-						"We're so excited to celebrate with you. Please RSVP by Friday 11:59pm 12th July, 2024."
+						"We're so excited to celebrate with you. Please RSVP by Friday 11:59pm 10th October, 2024."
 						// "Thank you for taking the time to RSVP. We're so excited to celebrate with you. The RSVP window has now closed, but you can still view your responses below."
 					}
 				</p>

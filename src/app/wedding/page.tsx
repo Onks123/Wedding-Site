@@ -22,18 +22,18 @@ TBC
 
 const hotels = [
 	{
-		name: "Premier Inn Thurrock East",
-		distance: "10 min drive",
+		name: "Premier Inn T East",
+		distance: "10 min",
 		link: "https://www.premierinn.com/gb/en/hotels/england/essex/thurrock/thurrock-east.html",
 	},
 	{
-		name: "Travelodge Thurrock Lakeside",
-		distance: "12 min drive",
+		name: "Travelodge T Lakeside",
+		distance: "12 min",
 		link: "https://www.travelodge.co.uk/hotels/627/Thurrock-Lakeside-hotel",
 	},
 	{
-		name: "Premier Inn Thurrock West",
-		distance: "14 min drive",
+		name: "Premier Inn T West",
+		distance: "14 min",
 		link: "https://www.premierinn.com/gb/en/hotels/england/essex/thurrock/thurrock-west.html",
 	},
 ];
@@ -100,14 +100,14 @@ export default function Wedding() {
 					<pre className="bg-white text-black prose font-sans font-"><a href='https://www.google.com/maps/dir//Prince+Charles+Ave,+Orsett,+Grays+RM16+3HS/@51.5158374,0.2954933,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47d8b801ccafe345:0x6136e805ecefafaa!2m2!1d0.3778935!2d51.5158663?entry=ttu'>{'Orsett Hall \nPrince Charles Avenue \nOrsett \nEssex \nRM16 3HS'}</a>
 					</pre>
 				</div>
-				<div className="py-8 bg-neutral-100 gap-x-1">
+				<div className="py-8 bg-neutral-100">
 					<h1 className="px-8 font-serif font-normal">Hotel Recommendations</h1>
-					<Table className="not-prose px-11 sm:table-fixed">
+					<Table className="flex not-prose px-20">
 						<TableHead>
 							<TableRow>
 								<TableHeader>Name</TableHeader>
 								<TableHeader>Distance</TableHeader>
-								<TableHeader>Action</TableHeader>
+								<TableHeader>Link</TableHeader>
 							</TableRow>
 						</TableHead>
 						<TableBody>
