@@ -55,11 +55,6 @@ export default function Home() {
 							className="object-cover object-top"
 							placeholder="blur"
 						/>
-						{/* <enhanced:img
-              src={PortraitImage}
-              className="object-cover object-top"
-              alt="us togethe"
-            /> */}
 					</div>
 				</div>
 
