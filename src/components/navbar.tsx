@@ -39,6 +39,7 @@ export default function DesktopNavbar() {
 							Registry
 							<ArrowTopRightOnSquareIcon className="-mt-1 ml-1 h-4 w-4 inline-block" />
 						</NavbarLink>
+						<NavbarDivider></NavbarDivider>
 						{/* <NavbarLink href="/faq">
 						FAQs
 						</NavbarLink> */}

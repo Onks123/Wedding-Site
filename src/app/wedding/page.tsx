@@ -104,7 +104,7 @@ export default function Wedding() {
 				</div>
 				<div className="bg-neutral-100 p-8 pr-5">
 					<h1 className="font-serif font-normal">Hotels</h1>
-					<Table className="flex not-prose sm:-px-20 table-auto">
+					<Table className="flex justify-center items-center not-prose sm:-px-20 table-auto">
 						<TableHead>
 							<TableRow>
 								<TableHeader>Name</TableHeader>

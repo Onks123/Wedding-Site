@@ -1,9 +1,9 @@
 import Image from "next/image";
-import BackgroundImage from "@/lib/assets/images/background2.jpg";
+import BackgroundImage from "@/lib/assets/images/cool.jpg";
 import FrontTitle from "./front-title";
 import Image4 from "@/lib/assets/images/kneel.jpg";
 import Image6 from "./WinterWonderland.jpg";
-import Image3 from "@/lib/assets/images/cool.jpg";
+import Image3 from "@/lib/assets/images/background2.jpg";
 import AboutImage from "@/lib/assets/images/about.jpg";
 import SideScreenPill from "./side-screen-pill";
 
