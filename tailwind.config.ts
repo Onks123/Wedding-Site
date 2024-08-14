@@ -34,8 +34,8 @@ const config = {
           "20%,50%": { opacity: "0" },
         },
         "wiggle": {
-          '0%, 100%': { transform: 'rotate(-5deg)' },
-          '50%': { transform: 'rotate(5deg)' },
+          '0%, 100%': { transform: 'rotate(-65deg)' },
+          '50%': { transform: 'rotate(-30deg)' },
         },
       },
       animation: {
