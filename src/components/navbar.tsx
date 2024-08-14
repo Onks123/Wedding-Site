@@ -27,10 +27,10 @@ function NavbarLink(props: LinkProps & { children: React.ReactNode }) {
 
 export default function DesktopNavbar() {
 	return (
-		<div className="fixed z-50 grid w-full sm:h-20 sm:grid-cols-3 sm:items-center sm:justify-between sm:px-8">
+		<div className="fixed z-50 grid w-full sm:h-20 sm:grid-cols-3 sm:items-center sm:justify-center sm:px-8">
 			<div />
 			<div className="sm:flex sm:items-center sm:justify-center">
-				<nav className="z-50 flex h-11 items-center justify-between whitespace-nowrap rounded-b-md border border-black/10 bg-white/90 pl-4 text-base font-medium text-black shadow-md backdrop-blur-md sm:justify-normal sm:rounded-full sm:shadow-none">
+				<nav className="z-50 flex h-11 items-center justify-center whitespace-nowrap rounded-b-md border border-black/10 bg-white/90 pl-4 text-base font-medium text-black shadow-md backdrop-blur-md sm:justify-normal sm:rounded-full sm:shadow-none">
 					<div className="flex items-center space-x-3">
 						<NavbarLink href="/">O&Z</NavbarLink>
 						<NavbarLink href="/wedding">Wedding</NavbarLink>
@@ -39,7 +39,6 @@ export default function DesktopNavbar() {
 							Registry
 							<ArrowTopRightOnSquareIcon className="-mt-1 ml-1 h-4 w-4 inline-block" />
 						</NavbarLink>
-						<NavbarDivider></NavbarDivider>
 						{/* <NavbarLink href="/faq">
 						FAQs
 						</NavbarLink> */}
@@ -55,7 +54,7 @@ export default function DesktopNavbar() {
 								<DropdownHeading>
 									More Items
 								</DropdownHeading>
-								<DropdownItem href="/rsvp" className="flex h-full w-full text-white bg-zinc-100 " >
+								<DropdownItem href="/rsvp" className="flex h-full w-full text-white bg-zinc-200 " >
 									<TicketIcon className="animate-wiggle h-5 w-3 -rotate-45 fill-black" />
 									RSVP
 								</DropdownItem>

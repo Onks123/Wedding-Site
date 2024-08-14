@@ -7,7 +7,7 @@ export default function SignOutButton() {
 	return (
 		<Button
 			color="red"
-			className="mt-6 ml-32 md:ml-60"
+			className="flex justify-center items-center"
 			onClick={() => {
 				logout();
 			}}

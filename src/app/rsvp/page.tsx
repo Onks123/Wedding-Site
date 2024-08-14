@@ -82,6 +82,8 @@ export default async function RsvpPage() {
 					}}
 					isAttending={user?.receptionIsAttending}
 				/>
+			</div>
+			<div className="mt-8 flex justify-center items-center">
 				<SignOutButton/>
 			</div>
 		</div>
