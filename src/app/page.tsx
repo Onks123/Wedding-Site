@@ -21,7 +21,7 @@ export default function Home() {
 					/>
 				</div>
 
-				<div className="absolute !scroll-smooth inset-x-0 bottom-14 z-49 hidden items-center justify-center sm:flex">
+				<div className="absolute !scroll-smooth inset-x-0 bottom-28 md:bottom-14 z-49 items-center justify-center sm:flex">
 					<div className="flex items-center justify-center">
 						<ScrollDown />
 					</div>
@@ -33,8 +33,8 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="absolute top-0 z-50 hidden h-dvh items-center pl-4 sm:flex">
-					<div className="rotate-180 [writing-mode:vertical-lr]">
+				<div className="absolute top-0 h-full z-49 h-dvh items-center justify-center pl-0 sm:flex">
+					<div className="rotate-180 [writing-mode:vertical-lr] h-full">
 						<SideScreenPill
 							href="/wedding"
 							location="16.03.2025 — Essex"
@@ -43,8 +43,8 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="absolute right-0 top-0 z-50 hidden h-dvh items-center pr-4 sm:flex">
-					<div className="[writing-mode:vertical-lr]">
+				<div className="absolute right-0 top-0 h-full z-49 items-center justify-center pr-0 sm:flex">
+					<div className="[writing-mode:vertical-lr] h-full">
 						<SideScreenPill
 							href="/wedding"
 							location="16.03.2025 — Essex"
@@ -54,7 +54,7 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className="grid grid-rows-1 lg:grid-cols-2">
+			<div id="ourStory" className="grid grid-rows-1 lg:grid-cols-2">
 				<div className="flex items-center justify-center">
 					<div className="relative m-16">
 						<Image
