@@ -32,7 +32,7 @@ export default function Title() {
 						initial="hidden"
 						animate="visible"
 						transition={transition}
-						className="h-min pl-4 font-serif text-7xl font-light text-white/30 md:p-0 md:text-9xl"
+						className="h-min pl-4 font-serif text-7xl font-medium text-white/60 md:p-0 md:text-9xl"
 					>
 						&
 					</motion.span>
@@ -43,7 +43,7 @@ export default function Title() {
 				initial="hidden"
 				animate="visible"
 				transition={transition}
-				className="font-serif text-6xl font-light text-white md:text-8xl"
+				className="font-serif text-6xl font-normal text-white md:text-8xl"
 			>
 				Onkar
 			</motion.h1>
@@ -52,7 +52,7 @@ export default function Title() {
 				initial="hidden"
 				animate="visible"
 				transition={transition}
-				className="font-serif text-6xl font-light text-white md:text-8xl"
+				className="font-serif text-6xl font-normal text-white md:text-8xl"
 			>
 				Zara
 			</motion.h1>

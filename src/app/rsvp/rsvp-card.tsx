@@ -168,7 +168,7 @@ export default function RsvpCardNew(props: RsvpCardProps) {
 											<br />
 										</Fragment>
 									))}
-									<TextLink href={props.directionLink}> Directions</TextLink>
+									<TextLink href={props.directionLink} rel="noopener noreferrer" target="_blank" > Directions</TextLink>
 								</Text>
 							</div>
 						</div>

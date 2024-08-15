@@ -15,9 +15,9 @@ export default function SideScreenPill(props: LocationPillProps) {
 	return (
 		<Link
 			href={props.href}
-			className="relative flex items-center justify-center overflow-hidden whitespace-nowrap rounded-full px-4 text-sm font-medium uppercase text-white transition-opacity hover:opacity-70"
+			className="animate-infinite-scroll relative flex items-center justify-center overflow-hidden whitespace-nowrap rounded-full px-4 text-sm font-medium uppercase text-white transition-opacity hover:opacity-70"
 		>
-			{props.location} — {daysToGo} days
+			{props.location} — {daysToGo} days left
 		</Link>
 	);
 }

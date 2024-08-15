@@ -41,6 +41,10 @@ const config = {
           '0%, 100%': { transform: 'rotate(-7deg)' },
           '50%': { transform: 'rotate(7deg)' },
         },
+        'infinite-scroll': {
+          from: { transform: 'translateY(0)' },
+          to: { transform: 'translateY(-62%)' },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -48,6 +52,7 @@ const config = {
         "caret-blink": "caret-blink 1.25s ease-out infinite",
         "wiggle": 'wiggle 1s ease-in-out infinite',
         "wiggleLight": 'wiggleLight 0.7s ease-in-out infinite',
+        "infinite-scroll": 'infinite-scroll 17s linear infinite',
       },
       fontFamily: {
         sans: ["var(--font-wotfard)", ...fontFamily.sans],

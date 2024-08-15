@@ -94,12 +94,15 @@ export default function Wedding() {
 					<p>Due to capacity of the chapel, we unfortunately could not invite everyone to the ceremony, so please refer to your invite as to what time you should arrive.
 					For those who are attending the ceremony, it will be starting <b>promptly</b>, so please ensure you are on time, as you will not be let in after the ceremony has begun - 
 					thank you for understanding! </p>
-					<p>For any other questions, please refer to the <a href='./faq'>FAQs</a>.</p>
+					<p>For any other questions, please refer to the <a href='./faq'>FAQs</a>!</p>
 				</div>
 
 				<div className="p-0 py-4 pl-8">
 					<h1 className="font-serif font-normal">Location</h1>
-					<pre className="bg-white text-black prose font-sans font-"><a href='https://www.google.com/maps/dir//Prince+Charles+Ave,+Orsett,+Grays+RM16+3HS/@51.5158374,0.2954933,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47d8b801ccafe345:0x6136e805ecefafaa!2m2!1d0.3778935!2d51.5158663?entry=ttu'>{'Orsett Hall \nPrince Charles Avenue \nOrsett \nEssex \nRM16 3HS'}</a>
+					<pre className="bg-white text-black prose font-sans font-">
+						<a href='https://www.google.com/maps/dir//Prince+Charles+Ave,+Orsett,+Grays+RM16+3HS/@51.5158374,0.2954933,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47d8b801ccafe345:0x6136e805ecefafaa!2m2!1d0.3778935!2d51.5158663?entry=ttu'
+						   rel="noopener noreferrer" target="_blank">
+						{'Orsett Hall \nPrince Charles Avenue \nOrsett \nEssex \nRM16 3HS'}</a>
 					</pre>
 				</div>
 				<div className="bg-neutral-100 p-8 pr-5">
@@ -118,7 +121,7 @@ export default function Wedding() {
 									<TableCell className="font-medium">{hotel.name}</TableCell>
 									<TableCell>{hotel.distance}</TableCell>
 									<TableCell className="text-zinc-500">
-										<Button href={hotel.link} outline>
+										<Button href={hotel.link} rel="noopener noreferrer" target="_blank " outline>
 											View
 											<ArrowTopRightOnSquareIcon />
 										</Button>
