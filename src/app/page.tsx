@@ -1,6 +1,7 @@
 import Image from "next/image";
 import BackgroundImage from "@/lib/assets/images/cool.jpg";
 import FrontTitle from "./front-title";
+import ScrollDown from "./front-scroll-down";
 import Image4 from "@/lib/assets/images/kneel.jpg";
 import Image6 from "./WinterWonderland.jpg";
 import Image3 from "@/lib/assets/images/background2.jpg";
@@ -9,8 +10,8 @@ import SideScreenPill from "./side-screen-pill";
 
 export default function Home() {
 	return (
-		<main>
-			<div className="relative h-screen">
+		<main className="!scroll-smooth">
+			<div className="relative h-screen !scroll-smooth">
 				<div className="absolute -z-10 h-full w-full overflow-hidden">
 					<Image
 						src={BackgroundImage}
@@ -19,6 +20,13 @@ export default function Home() {
 						placeholder="blur"
 					/>
 				</div>
+
+				<div className="absolute !scroll-smooth inset-x-0 bottom-14 z-49 hidden items-center justify-center sm:flex">
+					<div className="flex items-center justify-center">
+						<ScrollDown />
+					</div>
+				</div>
+
 				<div className="h-full">
 					<div className="flex h-full items-center justify-center">
 						<FrontTitle />
@@ -58,12 +66,13 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="flex items-center justify-center bg-zinc-100">
+				<div id="ourStory" className="flex items-center justify-center bg-zinc-100">
 					<div className="prose max-w-2xl p-16 text-justify text-black">
 						<h1 className="font-serif font-normal">Our Story</h1>
 						<p className="font-light">
 							{`
-              Onkar and Zara met in the DMs.
+              Zara and Onkar met in 2021 and quickly formed a close friendship. In 2023, after noticing signs from God, their friendship blossomed into a romance. 
+			  Since then, they’ve been inseparable and are excited to start the next chapter of their lives together.
               `}
 						</p>
 						<p className="font-light">

@@ -3,7 +3,6 @@ import {
 	ArrowTopRightOnSquareIcon,
 	TicketIcon,
 	InboxIcon,
-	EllipsisVerticalIcon,
 } from "@heroicons/react/16/solid";
 import {
 	Dropdown,
@@ -35,10 +34,10 @@ export default function DesktopNavbar() {
 						<NavbarLink href="/">O&Z</NavbarLink>
 						<NavbarLink href="/wedding">Wedding</NavbarLink>
 						<NavbarLink href="/bridalParty">Party</NavbarLink>
-						<NavbarLink href="https://www.johnlewis.com/wish-list/TFTNJNP">
+						<a href="https://www.amazon.co.uk/wedding/registry/1FDU26FDU86J" rel="noopener noreferrer" target="_blank">
 							Registry
-							<ArrowTopRightOnSquareIcon className="-mt-1 ml-1 h-4 w-4 inline-block" />
-						</NavbarLink>
+							<ArrowTopRightOnSquareIcon className="animate-wiggleLight -mt-1 ml-1 h-4 w-4 inline-block" />
+						</a>
 						<NavbarDivider></NavbarDivider>
 						{/* <NavbarLink href="/faq">
 						FAQs
@@ -46,15 +45,12 @@ export default function DesktopNavbar() {
 					</div>
 
 					<Dropdown>
-						<DropdownButton className="flex ml-4 h-11 items-center rounded-b-md bg-white px-1.5 text-white">
+						<DropdownButton className="flex ml-2 h-11 items-center rounded-b-md bg-white px-1.5 text-white">
 							More
 							<ChevronDownIcon />
 						</DropdownButton>
 						<DropdownMenu className="bg-white/90">
 							<DropdownSection>
-								<DropdownHeading>
-									More Items
-								</DropdownHeading>
 								<DropdownItem href="/rsvp" className="flex h-full w-full text-white bg-zinc-200 " >
 									<TicketIcon className="animate-wiggle h-5 w-3 -rotate-45 fill-black" />
 									RSVP
