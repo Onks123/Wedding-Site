@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BackgroundImage from "@/lib/assets/images/cool.jpg";
+import BackgroundImage from "@/lib/assets/images/cool.png";
 import FrontTitle from "./front-title";
 import ScrollDown from "./front-scroll-down";
 import Image4 from "@/lib/assets/images/kneel.jpg";
