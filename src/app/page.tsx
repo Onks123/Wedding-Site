@@ -43,7 +43,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="absolute right-0 top-0 h-full z-50 items-center justify-center pr-2 sm:flex">
+				<div className="absolute right-5 top-0 h-full z-50 items-center justify-center pr-0 sm:flex">
 					<div className="[writing-mode:vertical-lr] h-full">
 						<SideScreenPill
 							href="/wedding"

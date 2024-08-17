@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/components/catalyst/button";
-import { logout } from "./actions";
 
 export default function ToWeddingPage() {
 	return (
