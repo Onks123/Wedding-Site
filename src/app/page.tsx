@@ -71,13 +71,21 @@ export default function Home() {
 						<h1 className="font-serif font-normal">Our Story</h1>
 						<p className="font-light">
 							{`
-              Zara and Onkar met in 2021 and quickly formed a close friendship. In 2023, after noticing signs from God, their friendship blossomed into a romance. 
-			  Since then, they’ve been inseparable and are excited to start the next chapter of their lives together.
+              Having crossed paths at IMPRINT Leicester in 2019, after Zara approached Onkar for prayer during a Sunday Service, little did they know their lives would continue to intertwine. 
+			  Over the years, they mysteriously found themselves around each other more & more, by no effort of their own - being placed in the same groups, teams, friendship circles, with short interactions in between.
+			  It wasn’t until November 2021, when Onkar smoothly slid into Zara’s DMs, and together went onto spending countless days & nights laughing, chopping up the bible, discussing conspiracies and sharing deep experiences, quickly forming a close friendship. 
+			  Throughout the first half of 2022, after experiencing the typical highs & lows of any relationship, they decided to stop pursuing a romantic relationship and instead to focus on building a deeper friendship. 
+			  However, with no sign of change in sight, they heartbreakingly began to distance and go on their own way, focusing on themselves instead. But, just how God always does….
               `}
 						</p>
 						<p className="font-light">
 							{`
-              WORK IN PROGRESS
+              ….He spun the block ! In the beginning of 2023, the once distance began to draw nearer, and reverted back into friendship. Soon after, as they started noticing signs from God, their friendship blossomed into a romance! 
+			  In June 2023, noticing God’s hand in their relationship, they decided to make it official, and since then, they’ve been inseparable - as they journeyed together in serving God and each other. 
+			  Fast forwarding to Feb 2024, as Onkar felt it was time for the next step, he proposed to the one he loves and received a tear-filled “Yes!” in return. 
+			  Since being engaged, they began to plan their future, and are excited to start the next chapter of their lives with you all on March 16th 2025!
+
+			  Glory be to God!
               `}
 						</p>
 					</div>
