@@ -91,10 +91,11 @@ export default function Wedding() {
 						</TableBody>
 					</Table>
 					<p><strong>Please note:</strong></p>
-					<p>Due to capacity of the chapel, we unfortunately could not invite everyone to the ceremony, so please refer to your invite as to what time you should arrive.
+					<p>Due to the very limited capacity of the chapel, we unfortunately could <b>not</b> invite everyone to the ceremony, 
+					so please refer to your <a href='./rsvp'>invite <ArrowTopRightOnSquareIcon className="-mt-4 h-4 w-3 inline" /></a> as to what time you should arrive.
 					For those who are attending the ceremony, it will be starting <b>promptly</b>, so please ensure you are on time, as you will not be let in after the ceremony has begun - 
 					thank you for understanding! </p>
-					<p>For any other questions, please refer to the <a href='./faq'>FAQs</a>!</p>
+					<p>For all other questions, please refer to the <a href='./faq'>FAQs</a>!</p>
 				</div>
 
 				<div className="p-0 py-4 pl-8">

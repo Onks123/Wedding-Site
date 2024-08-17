@@ -3,6 +3,7 @@ import { CaptureDietaryRequirements } from "@/app/rsvp/captureDietaryRequirement
 import SignOutButton from "./sign-out";
 import type { Metadata } from "next";
 import { authenticate, currentUser } from "@/lib/auth";
+import ToWeddingPage from "./toWeddingPage";
 
 export const metadata: Metadata = {
 	title: "RSVP",
@@ -69,7 +70,6 @@ export default async function RsvpPage() {
 						location: ["Orsett Hall", "Prince Charles Avenue, Orsett, Essex, RM16 3HS"],
 					}}
 					isAttending={user?.ceremonyIsAttending}
-					additionalActions={<CaptureDietaryRequirements />}
 				/>
 				<RsvpCardNew
 					directionLink="https://www.google.com/maps/dir//Prince+Charles+Ave,+Orsett,+Grays+RM16+3HS/@51.5158374,0.2954933,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47d8b801ccafe345:0x6136e805ecefafaa!2m2!1d0.3778935!2d51.5158663?entry=ttu"
@@ -83,7 +83,9 @@ export default async function RsvpPage() {
 					isAttending={user?.receptionIsAttending}
 				/>
 			</div>
-			<div className="mt-8 flex justify-center items-center">
+			<div className="mt-8 flex gap-x-2 justify-center items-center">
+				<ToWeddingPage/>
+				<CaptureDietaryRequirements/>
 				<SignOutButton/>
 			</div>
 		</div>
