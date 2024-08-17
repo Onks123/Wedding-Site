@@ -33,7 +33,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="absolute top-0 h-full z-50 h-dvh items-center justify-center pl-0 sm:flex">
+				<div className="absolute top-0 h-full z-49 h-dvh items-center justify-center pl-0 sm:flex">
 					<div className="rotate-180 [writing-mode:vertical-lr] h-full">
 						<SideScreenPill
 							href="/wedding"
@@ -43,7 +43,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="absolute right-0 top-0 h-full z-50 items-center hidden md:visible justify-center pr-0 sm:flex">
+				<div className="absolute right-0 top-0 h-full z-49 items-center hidden md:visible justify-center pr-0 sm:flex">
 					<div className="[writing-mode:vertical-lr] h-full">
 						<SideScreenPill
 							href="/wedding"
@@ -55,8 +55,8 @@ export default function Home() {
 			</div>
 
 			<div className="grid grid-rows-1 lg:grid-cols-2">
-				<div className="flex items-center justify-center">
-					<div id="ourStory" className="relative m-16">
+				<div id="ourStory" className="flex items-center justify-center">
+					<div className="relative m-16">
 						<Image
 							src={AboutImage}
 							alt="us together"
