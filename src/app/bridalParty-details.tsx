@@ -68,7 +68,7 @@ export default async function PartyDetailsPage(props: PartyDetailsPageProps) {
 						</div>
 					</div>
 				</div>
-				<div className="w-full max-w-lg pt-16 sm:pt-0">
+				<div className="w-full -z-50 max-w-lg pt-16 sm:pt-0">
 					<NavbarSpace />
 					<div className="relative">
 							<Image

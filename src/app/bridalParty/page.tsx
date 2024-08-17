@@ -11,6 +11,10 @@ import {
 import { Button } from "@/components/catalyst/button";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/16/solid";
 import type { Metadata } from "next";
+import Image from "next/image";
+import Image6 from "@/lib/assets/images/kneel.jpg";
+import Image4 from "@/lib/assets/images/looking_at_eachother.jpg";
+import Image3 from "@/lib/assets/images/background2.jpg";
 
 export const metadata: Metadata = {
 	title: "Bridal Party",
@@ -50,33 +54,26 @@ export default async function BridalParty() {
 			image={BridalPImage}
 		>
 			<div className="prose text-black">
-				{/* <div className="bg-neutral-100 p-8">
-					<h1 className="font-serif font-normal">Food</h1>
-					<p>The food on the day will be a set menu as follows:</p>
-					<h2 className="font-serif font-normal">Starter</h2>
-					<p>
-						Spanish Style Chicken & Chorizo Salad with Tomato Vinaigrette (GF)
-						(DF)
-					</p>
-					<h2 className="font-serif font-normal">Main Course</h2>
-					<p>
-						Roast Chicken Supreme served with Bread Sauce, Sage & Onion Stuffing
-					</p>
-					<h2 className="font-serif font-normal">Dessert</h2>
-					<p>Warm Chocolate Brownie with Vanilla Ice Cream (V)</p>
-					<p>
-						<strong>(V) Vegetarian | (DF) Dairy Free | (GF) Gluten Free</strong>
-					</p>
-					<p>NOTE: ANY FOOD REQUIREMENTS CAN BE LISTED WHEN YOU RSVP</p>
-				</div> */}
-
-				{/* <div className="p-8">
-					<h1 className="font-serif font-normal">Location</h1>
-					<p>
-						Ashton Lodge Country House, Street Ashton, Stretton Under Fosse,
-						Rugby, Warwickshire, CV23 0PJ
-					</p>
-				</div> */}
+				<div className="grid grid-cols-1 gap-8 p-16 md:grid-cols-3">
+					<Image
+						src={Image3}
+						alt=""
+						className="aspect-[9/16] object-cover"
+						placeholder="blur"
+					/>
+					<Image
+						src={Image6}
+						alt=""
+						className="aspect-[9/16] object-cover"
+						placeholder="blur"
+					/>
+					<Image
+						src={Image4}
+						alt=""
+						className="aspect-[9/16] object-cover"
+						placeholder="blur"
+					/>
+				</div>
 			</div>
 		</PartyDetailsPage>
 	);

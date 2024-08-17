@@ -2,8 +2,8 @@ import Image from "next/image";
 import BackgroundImage from "@/lib/assets/images/cool.png";
 import FrontTitle from "./front-title";
 import ScrollDown from "./front-scroll-down";
-import Image4 from "@/lib/assets/images/kneel.jpg";
-import Image6 from "./WinterWonderland.jpg";
+import Image6 from "@/lib/assets/images/kneel.jpg";
+import Image4 from "@/lib/assets/images/looking_at_eachother.jpg";
 import Image3 from "@/lib/assets/images/background2.jpg";
 import AboutImage from "@/lib/assets/images/about.jpg";
 import SideScreenPill from "./side-screen-pill";
@@ -69,7 +69,7 @@ export default function Home() {
 				<div id="ourStory" className="flex items-center justify-center bg-zinc-100">
 					<div className="prose max-w-2xl p-16 text-justify text-black">
 						<h1 className="font-serif font-normal">Our Story</h1>
-						<p className="font-light">
+						<p className="font-light text-wrap tracking-tight">
 							{`
               Having crossed paths at IMPRINT Leicester in 2019, after Zara approached Onkar for prayer during a Sunday Service, little did they know their lives would continue to intertwine. 
 			  Over the years, they mysteriously found themselves around each other more & more, by no effort of their own - being placed in the same groups, teams, friendship circles, with short interactions in between.
@@ -78,7 +78,7 @@ export default function Home() {
 			  However, with no sign of change in sight, they heartbreakingly began to distance and go on their own way, focusing on themselves instead. But, just how God always does….
               `}
 						</p>
-						<p className="font-light">
+						<p className="font-light text-wrap tracking-tight">
 							{`
               ….He spun the block ! In the beginning of 2023, the once distance began to draw nearer, and reverted back into friendship. Soon after, as they started noticing signs from God, their friendship blossomed into a romance! 
 			  In June 2023, noticing God’s hand in their relationship, they decided to make it official, and since then, they’ve been inseparable - as they journeyed together in serving God and each other. 
