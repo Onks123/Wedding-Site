@@ -32,7 +32,7 @@ const Closed = () => {
 };
 
 export default async function RsvpPage() {
-	
+
 	const user = await currentUser();
 
 	if (!user) {
@@ -53,24 +53,27 @@ export default async function RsvpPage() {
 					}
 				</p> */}
 				<p className="mt-6 pt-7 pb-10 text-black">
-					{	
+					{
 						"Please RSVP by Friday 10th October 2024!"
 					}
 				</p>
 			</div>
 
 			<div className="mx-auto max-w-xl space-y-6 pt-13">
-				<RsvpCardNew
-					directionLink="https://www.google.com/maps/dir//Prince+Charles+Ave,+Orsett,+Grays+RM16+3HS/@51.5158374,0.2954933,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47d8b801ccafe345:0x6136e805ecefafaa!2m2!1d0.3778935!2d51.5158663?entry=ttu"
-					wedding="ceremony"
-					title="Wedding Ceremony"
-					subtitle="Sunday 16th March 2025"
-					details={{
-						time: "1:00 PM",
-						location: ["Orsett Hall", "Prince Charles Avenue, Orsett, Essex, RM16 3HS"],
-					}}
-					isAttending={user?.ceremonyIsAttending}
-				/>
+				{user?.invitedToCeremony &&(
+					<RsvpCardNew
+						directionLink="https://www.google.com/maps/dir//Prince+Charles+Ave,+Orsett,+Grays+RM16+3HS/@51.5158374,0.2954933,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47d8b801ccafe345:0x6136e805ecefafaa!2m2!1d0.3778935!2d51.5158663?entry=ttu"
+						wedding="ceremony"
+						title="Wedding Ceremony"
+						subtitle="Sunday 16th March 2025"
+						details={{
+							time: "1:00 PM",
+							location: ["Orsett Hall", "Prince Charles Avenue, Orsett, Essex, RM16 3HS"],
+						}}
+						isAttending={user?.ceremonyIsAttending}
+					/>
+				)}
+
 				<RsvpCardNew
 					directionLink="https://www.google.com/maps/dir//Prince+Charles+Ave,+Orsett,+Grays+RM16+3HS/@51.5158374,0.2954933,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47d8b801ccafe345:0x6136e805ecefafaa!2m2!1d0.3778935!2d51.5158663?entry=ttu"
 					wedding="reception"
@@ -84,9 +87,9 @@ export default async function RsvpPage() {
 				/>
 			</div>
 			<div className="mt-8 flex gap-x-2 justify-center items-center">
-				<ToWeddingPage/>
-				<CaptureDietaryRequirements/>
-				<SignOutButton/>
+				<ToWeddingPage />
+				<CaptureDietaryRequirements />
+				<SignOutButton />
 			</div>
 		</div>
 	);

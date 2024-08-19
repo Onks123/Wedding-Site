@@ -7,34 +7,13 @@ datasource db {
   url       = env("DATABASE_URL") // uses connection pooling
 }
 
-model Invite {
-  id    String  @id @default(cuid())
-  token String  @unique
-  used  Boolean @default(false)
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-}
-
-model GuestMeta {
-  id                String    @id
-  name              String?
-  ceremonyIsAttending Boolean?
-  receptionIsAttending  Boolean?
-  verified          Boolean   @default(false)
-  verifiedAt        DateTime?
-  verifiedWith      String?
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-}
-
 model Guest {
   id                String   @id
   ceremonyIsAttending Boolean?
   receptionIsAttending  Boolean?
   fullName          String?
   displayName       String?
+  invitedToCeremony Boolean?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
