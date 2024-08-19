@@ -1,16 +1,7 @@
 import BridalPImage from "@/lib/assets/images/orsett_hall4.jpeg";
 import PartyDetailsPage from "../bridalParty-details";
-import {
-	Table,
-	TableBody,
-	TableCell,
-	TableHead,
-	TableHeader,
-	TableRow,
-} from "@/components/catalyst/table";
-import { Button } from "@/components/catalyst/button";
-import { ArrowTopRightOnSquareIcon } from "@heroicons/react/16/solid";
 import type { Metadata } from "next";
+import { Button } from "@/components/catalyst/button";
 import Image from "next/image";
 import Image6 from "@/lib/assets/images/kneel.jpg";
 import Image4 from "@/lib/assets/images/looking_at_eachother.jpg";
@@ -21,26 +12,9 @@ export const metadata: Metadata = {
 };
 
 const description = `
-UNDER CONSTRUCTION
+We are so grateful for all our amazing family & friends who have been supporting us on our journey, with the privilege of asking some of them to be our bridesmaids & groomsmen!
+It is a joy to be ushered into our next chapter with them alongside us, so take a look below to see who they are.
 `;
-
-const hotels = [
-	{
-		name: "Premier Inn Coventry East",
-		distance: "8 min drive",
-		link: "https://www.premierinn.com/gb/en/hotels/england/west-midlands/coventry/coventry-east-ansty.html",
-	},
-	{
-		name: "Brandon Hall Hotel and Spa",
-		distance: "11 min drive",
-		link: "https://brandonhallhotel.com",
-	},
-	{
-		name: "Premier Rugby Inn North",
-		distance: "15 min drive",
-		link: "https://www.premierinn.com/gb/en/hotels/england/warwickshire/rugby/rugby-north-m6-jct1.html",
-	},
-];
 
 export default async function BridalParty() {
 	return (
@@ -53,8 +27,31 @@ export default async function BridalParty() {
 			description={description}
 			image={BridalPImage}
 		>
+				<Button href="#bridesmaids" className="!scroll-smooth items-center justify-center">
+					Jump to bridesmaids
+				</Button>
 			<div className="prose text-black">
-				<div className="grid grid-cols-1 gap-8 p-16 md:grid-cols-3">
+				<div className="grid grid-cols-1 p-16 pt-24 md:pt-0 md:p-8 gap-6 -space-y-0 md:grid-cols-3 md:space-y-20">
+					<h1 id="bridesmaids" className="font-serif font-normal text-center md:pl-6 outline md:outline-none space-y-0">Bridesmaids</h1>
+					<Image
+						src={Image3}
+						alt=""
+						className="aspect-[9/16] object-cover"
+						placeholder="blur"
+						id="bridesmaids"
+					/>
+					<Image
+						src={Image6}
+						alt=""
+						className="aspect-[9/16] object-cover"
+						placeholder="blur"
+					/>
+					<Image
+						src={Image4}
+						alt=""
+						className="aspect-[9/16] object-cover"
+						placeholder="blur"
+					/>
 					<Image
 						src={Image3}
 						alt=""
@@ -63,6 +60,70 @@ export default async function BridalParty() {
 					/>
 					<Image
 						src={Image6}
+						alt=""
+						className="aspect-[9/16] object-cover"
+						placeholder="blur"
+					/>
+					<Image
+						src={Image4}
+						alt=""
+						className="aspect-[9/16] object-cover"
+						placeholder="blur"
+					/>
+					<Image
+						src={Image3}
+						alt=""
+						className="aspect-[9/16] object-cover"
+						placeholder="blur"
+					/>
+					<Image
+						src={Image6}
+						alt=""
+						className="aspect-[9/16] object-cover"
+						placeholder="blur"
+					/>
+				</div>
+				<div className="grid grid-cols-1 p-16 md:p-8 gap-6 -space-y-0 md:grid-cols-3 md:space-y-20">
+					<h1 className="font-serif font-normal text-center md:pl-6 outline md:outline-none space-y-0">Groomsmen</h1>
+					<Image
+						src={Image4}
+						alt=""
+						className="aspect-[9/16] object-cover"
+						placeholder="blur"
+						id="groomsmen"
+					/>
+					<Image
+						src={Image3}
+						alt=""
+						className="aspect-[9/16] object-cover"
+						placeholder="blur"
+					/>
+					<Image
+						src={Image6}
+						alt=""
+						className="aspect-[9/16] object-cover"
+						placeholder="blur"
+					/>
+					<Image
+						src={Image4}
+						alt=""
+						className="aspect-[9/16] object-cover"
+						placeholder="blur"
+					/>
+					<Image
+						src={Image3}
+						alt=""
+						className="aspect-[9/16] object-cover"
+						placeholder="blur"
+					/>
+					<Image
+						src={Image6}
+						alt=""
+						className="aspect-[9/16] object-cover"
+						placeholder="blur"
+					/>
+					<Image
+						src={Image4}
 						alt=""
 						className="aspect-[9/16] object-cover"
 						placeholder="blur"

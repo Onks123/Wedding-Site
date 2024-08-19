@@ -80,7 +80,7 @@ export default function Home() {
 						</p>
 						<p className="font-light text-wrap tracking-tight">
 							{`
-              ….He spun the block ! In the beginning of 2023, the once distance began to draw nearer, and reverted back into friendship. Soon after, as they started noticing signs from God, their friendship blossomed into a romance! 
+              ….He spun the block! In the beginning of 2023, the once distance began to draw nearer, and reverted back into friendship. Soon after, as they started noticing signs from God, their friendship blossomed into a romance! 
 			  In June 2023, noticing God’s hand in their relationship, they decided to make it official, and since then, they’ve been inseparable - as they journeyed together in serving God and each other. 
 			  Fast forwarding to Feb 2024, as Onkar felt it was time for the next step, he proposed to the one he loves and received a tear-filled “Yes!” in return. 
 			  Since being engaged, they began to plan their future, and are excited to start the next chapter of their lives with you all on March 16th 2025!
