@@ -5,7 +5,6 @@ generator client {
 datasource db {
   provider  = "postgresql"
   url       = env("DATABASE_URL") // uses connection pooling
-  directUrl = env("DATABASE_URL_UNPOOLED") // uses a direct connection
 }
 
 model Invite {
