@@ -4,6 +4,7 @@ import SignOutButton from "./sign-out";
 import type { Metadata } from "next";
 import { authenticate, currentUser } from "@/lib/auth";
 import ToWeddingPage from "./toWeddingPage";
+import ToFAQPage from "./toFAQPage";
 
 export const metadata: Metadata = {
 	title: "RSVP",
@@ -52,10 +53,13 @@ export default async function RsvpPage() {
 						// "Thank you for taking the time to RSVP. We're so excited to celebrate with you. The RSVP window has now closed, but you can still view your responses below."
 					}
 				</p> */}
-				<p className="mt-6 pt-7 pb-10 text-black">
+				<p className="mt-6 pt-7 pb-3 text-black">
 					{
 						"Please RSVP by Friday 10th October 2024!"
 					}
+				</p>
+				<p className="pb-10 text-black">
+						<b>NOTE:</b> You are confirming for <u>all</u> of the names above - in the case there is more than one name above and someone can <u>not</u> make it, please reach out and let us know ASAP.
 				</p>
 			</div>
 
@@ -67,7 +71,7 @@ export default async function RsvpPage() {
 						title="Wedding Ceremony"
 						subtitle="Sunday 16th March 2025"
 						details={{
-							time: "1:00 PM",
+							time: "1:30 PM",
 							location: ["Orsett Hall", "Prince Charles Avenue, Orsett, Essex, RM16 3HS"],
 						}}
 						isAttending={user?.ceremonyIsAttending}
@@ -88,7 +92,7 @@ export default async function RsvpPage() {
 			</div>
 			<div className="mt-8 flex gap-x-2 justify-center items-center">
 				<ToWeddingPage />
-				<CaptureDietaryRequirements />
+				<ToFAQPage />
 				<SignOutButton />
 			</div>
 		</div>

@@ -112,16 +112,14 @@ function Response(props: ResponseProps) {
 				<Fragment>
 					<h1 className="text-green-600">We{"'"}ll see you there!</h1>
 					<Text>
-						We{"'"}re so excited to celebrate with you. We hope you have a great
-						time.
+						We{"'"}re so excited to celebrate with you. Please read the FAQs in the meantime.
 					</Text>
 				</Fragment>
 			) : (
 				<Fragment>
 					<h1 className="text-red-600">We{"'"}ll miss you.</h1>
 					<Text>
-						We{"'"}re so sorry you wont be able to make it. We hope to see you
-						soon.
+						We{"'"}re so sorry you wont be able to make it. Please read the FAQs for any questions.
 					</Text>
 				</Fragment>
 			)}

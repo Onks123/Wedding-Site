@@ -13,69 +13,67 @@ const faqs = [
 	},
 	{
 		id: 2,
-		question: "Can I bring a plus one?",
-		answer:
-			"Unfortunately, NO plus ones will be allowed for the wedding - please do contact us if there's any concerns.",
+		question: "Can I change/cancel my RSVP?",
+		answer: "Your RSVP can be changed BEFORE the end date. Anytime after this, we respectfully expect you to refund our costs incurred for securing your spot, unless it is due to valid reasons. We hope you understand that this is to help us manage our costs during the wedding process!",
 	},
 	{
 		id: 3,
-		question: "Can I bring my children?",
+		question: "Can I bring a plus one?",
 		answer:
-			"Unfortunately, only children within the families of the bride & groom and those who we're already aware of (please check your invite/RSVP) will be permitted at the wedding - contact us if there's any concerns.",
+			"Unfortunately, No plus ones will be allowed for the wedding - please do contact us if there's any concerns.",
 	},
 	{
 		id: 4,
+		question: "Can I bring my children?",
+		answer:
+			"Only children within the families of the bride & groom and those who we're already aware of (please check your invite/RSVP) will be permitted at the wedding - contact us if there's any concerns.",
+	},
+	{
+		id: 5,
+		question: "What time should I arrive on the day?",
+		answer:
+			"Please refer to your invite/RSVP and the Wedding page as to what time you should arrive - if you're NOT invited to the ceremony, you are welcome to join for the Drinks before the Reception. If you ARE invited to the ceremony, it will be starting at 1:30pm.",
+	},
+	{
+		id: 6,
 		question: "Is there parking available at your venue?",
 		answer:
 			"Yes, there is limited parking onsite.",
 	},
 	{
-		id: 5,
+		id: 7,
 		question: "What is the dress code for the wedding?",
 		answer:
-			"Please try avoid wearing purple/lavender and navy - except for that, with three cultures being represented, we would love for you to dress as creatively as you like, all traditional clothes are welcome. Kind reminder to please respect the occasion and dress modestly too, thank you!",
+			"Please try avoid wearing purple/lavender and navy - except that, with three cultures being represented, we would love for you to dress as creatively as you like, all traditional clothes are welcome. Kind reminder to please respect the occasion and dress modestly too, thank you!",
 	},
 	{
-		id: 6,
+		id: 8,
 		question: "Can I take photos during the ceremony?",
 		answer:
-			"We would love for you to take photos and videos throughout the day, however we ask that you try not to use flash  and be mindful of the professional photographs and videos being taken.",
+			"We would love for you to take photos and videos throughout the day, however, we ask that you be mindful of the professional photographs & videos being taken, and respect their instructions.",
 	},
 	{
-		id: 7,
+		id: 9,
 		question: "Will the wedding take place indoors or outdoors?",
 		answer: "Wedding is currently planned to take place indoors.",
 	},
 	{
-		id: 8,
+		id: 10,
 		question: "Will there be a gift table?",
 		answer:
 			"We are currently not planning on having a gift table, but please refer to the registry if you would like to kindly gift to us.",
 	},
 	{
-		id: 9,
+		id: 11,
 		question: "Can we send our wedding gift to you after the wedding?",
 		answer:
-			"Please email onkarandzara@gmail.com and we will inform you how you can get a gift to us, or refer to the registry.",
-	},
-	{
-		id: 10,
-		question: "What time should I arrive on the day?",
-		answer:
-			"Please refer to your invite/RSVP and the Wedding page as to what time you should arrive - if you're invited to the ceremony, it will be starting promptly at 1pm.",
-	},
-	{
-		id: 11,
-		question: "Where can I find a registry of gifts for you both?",
-		answer:
-			"You can find our registry by pressing on the link at the top of the screen.",
+			"Please email onkarandzara@gmail.com and we will inform you of how you can get a gift to us, or refer to the registry.",
 	},
 	{
 		id: 12,
-		question:
-			"Will there be meal options for guests with dietary restrictions or allergies?",
+		question: "Where can I find a registry of gifts for you both?",
 		answer:
-			"Yes, there will be different meal options for guests with dietary restrictions at the London Wedding. There is also a form to be filled out by hand and sent back to us for the Rugby Wedding if you have any dietary restrictions or allergies.",
+			"You can find our registry by pressing on the link at the top of the screen.",
 	},
 ];
 

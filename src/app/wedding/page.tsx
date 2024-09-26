@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const description = `
 With the ceremony taking place in a beautiful chapel, and the reception in a stunning hall, we're excited to have you all join us for our big day! 
 Below, you can find all the important information you may need, including the Itinerary, Location, and recommended Hotels. 
-Please do checkout the Wedding Party and Registry tabs too, and refer to the FAQs for any questions.
+Please do checkout the O&Z, Bridal Party & Registry pages too, and read the FAQs (under 'More')!
 `;
 
 const hotels = [
@@ -43,7 +43,7 @@ const hotels = [
 const schedules = [
 	{
 		schedule: "Ceremony",
-		time: "1:00pm",
+		time: "1:30pm",
 		location: "See below",
 	},
 	{
@@ -92,10 +92,10 @@ export default function Wedding() {
 					</Table>
 					<p><strong>Please note:</strong></p>
 					<p>Due to the very limited capacity of the chapel, we unfortunately could <b>not</b> invite everyone to the ceremony, 
-					so please refer to your <a href='./rsvp'>invite <ArrowTopRightOnSquareIcon className="-mt-4 h-4 w-3 inline" /></a> as to what time you should arrive.
+					so please refer to your <a href='./rsvp'>invite <ArrowTopRightOnSquareIcon className="-mt-4 h-4 w-3 inline" /></a> as to what time you should arrive (you're welcome to join for Drinks).
 					For those who are attending the ceremony, it will be starting <b>promptly</b>, so please ensure you are on time, as you will not be let in after the ceremony has begun - 
 					thank you for understanding! </p>
-					<p>For all other questions, please refer to the <a href='./faq'>FAQs</a>!</p>
+					<p>For all other important info, please refer to the <a href='./faq'>FAQs</a>!</p>
 				</div>
 
 				<div className="p-0 py-4 pl-8">
