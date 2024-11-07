@@ -14,7 +14,7 @@ const faqs = [
 	{
 		id: 2,
 		question: "Can I change/cancel my RSVP?",
-		answer: "Your RSVP can be changed BEFORE the end date. Anytime after this, we respectfully expect you to refund our costs incurred for securing your spot, unless it is due to valid reasons. We hope you understand that this is to help us manage our costs during the wedding process!",
+		answer: "Your RSVP can be changed BEFORE the end date. Anytime after this, we respectfully ask you consider supporting us financially, to help us manage our costs during the wedding process. This would be appreciated!",
 	},
 	{
 		id: 3,
@@ -44,7 +44,7 @@ const faqs = [
 		id: 7,
 		question: "What is the dress code for the wedding?",
 		answer:
-			"Please try avoid wearing purple/lavender and navy - except that, with three cultures being represented, we would love for you to dress as creatively as you like, all traditional clothes are welcome. Kind reminder to please respect the occasion and dress modestly too, thank you!",
+			"Kindly try to avoid wearing purple, lavender, and navy. Otherwise, with three cultures being celebrated, we encourage you to dress as creatively as you like — traditional attire is absolutely welcome! Just a gentle reminder to please respect the occasion and dress modestly. Thank you!",
 	},
 	{
 		id: 8,

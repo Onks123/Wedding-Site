@@ -46,7 +46,7 @@ async function HasAccess(props: HasAccessProps) {
 
 export default async function PartyDetailsPage(props: PartyDetailsPageProps) {
 	return (
-		<main className="!scroll-smooth">
+		<main>
 			<div className="-z-50 flex h-full min-h-screen">
 				<div className="relative hidden w-full md:flex">
 					<div className="sticky top-0 h-screen w-full">
@@ -78,7 +78,7 @@ export default async function PartyDetailsPage(props: PartyDetailsPageProps) {
 							placeholder="blur"
 						/>
 
-						<div className="absolute top-0 z-49 flex h-full w-full items-center justify-center">
+						<div className="absolute top-3 z-49 flex h-full w-full items-center justify-center">
 							<div className="mx-auto max-w-6xl p-2 backdrop-blur-md overflow-hidden" >
 								<h2 className="font-serif text-4xl text-white font-medium">
 									{props.imageTitleSmall}
