@@ -1,11 +1,11 @@
 import Image from "next/image";
-import BackgroundImage from "@/lib/assets/images/cool.png";
+import BackgroundImage from "@/lib/assets/images/cool3.jpg";
 import FrontTitle from "./front-title";
 import ScrollDown from "./front-scroll-down";
-import Image6 from "@/lib/assets/images/kneel.jpg";
-import Image4 from "@/lib/assets/images/looking_at_eachother.jpg";
-import Image3 from "@/lib/assets/images/background2.jpg";
-import AboutImage from "@/lib/assets/images/about.jpg";
+import Image6 from "@/lib/assets/images/models.jpg";
+import Image4 from "@/lib/assets/images/blur2.jpg";
+import Image3 from "@/lib/assets/images/blur1.jpg";
+import AboutImage from "@/lib/assets/images/ring2.jpg";
 import SideScreenPill from "./side-screen-pill";
 
 export default function Home() {

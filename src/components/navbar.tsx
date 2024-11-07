@@ -14,6 +14,7 @@ import {
 } from "@/components/catalyst/dropdown";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
 import { NavbarDivider } from "./catalyst/navbar";
+import { Divider } from "./catalyst/divider";
 
 
 export function NavbarSpace() {
@@ -32,8 +33,11 @@ export default function DesktopNavbar() {
 				<nav className="z-50 flex h-11 items-center justify-center whitespace-nowrap rounded-b-md border border-black/10 bg-white/90 pl-4 text-base font-medium text-black shadow-md backdrop-blur-md sm:justify-normal sm:rounded-full sm:shadow-none">
 					<div className="flex items-center space-x-3">
 						<NavbarLink href="/">O&Z</NavbarLink>
+						<NavbarDivider></NavbarDivider>
 						<NavbarLink href="/wedding">Wedding</NavbarLink>
+						<NavbarDivider></NavbarDivider>
 						<NavbarLink href="/bridalParty">Party</NavbarLink>
+						<NavbarDivider></NavbarDivider>
 						<a href="https://www.amazon.co.uk/wedding/registry/1FDU26FDU86J" rel="noopener noreferrer" target="_blank">
 							Registry
 							<ArrowTopRightOnSquareIcon className="animate-wiggleLight -mt-1 ml-1 h-4 w-4 inline-block" />

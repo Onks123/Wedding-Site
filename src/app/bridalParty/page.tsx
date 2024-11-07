@@ -1,28 +1,24 @@
-import BridalPImage from "@/lib/assets/images/cool.png";
+import BridalPImage from "@/lib/assets/images/walk1.jpg";
 import PartyDetailsPage from "../bridalParty-details";
 import type { Metadata } from "next";
 import { Button } from "@/components/catalyst/button";
 import Image from "next/image";
 import Image1 from "@/lib/assets/images/samara.jpg";
-// import Image2 from "@/lib/assets/images/sharon.jpg";
-import Image2 from "@/lib/assets/images/kneel.jpg";
+import Image2 from "@/lib/assets/images/sharon.jpg";
 import Image3 from "@/lib/assets/images/adanna.jpg";
 import Image4 from "@/lib/assets/images/jacqui.jpg";
 import Image5 from "@/lib/assets/images/toyin.jpg";
 import Image6 from "@/lib/assets/images/jasmine.jpg";
 import Image7 from "@/lib/assets/images/tomi.jpg";
 import Image8 from "@/lib/assets/images/tianna.jpg";
-// import Image9 from "@/lib/assets/images/calvin.jpg";
-// import Image10 from "@/lib/assets/images/sib.jpg";
-// import Image11 from "@/lib/assets/images/manni.jpg";
-import Image9 from "@/lib/assets/images/kneel.jpg";
-import Image10 from "@/lib/assets/images/kneel.jpg";
-import Image11 from "@/lib/assets/images/kneel.jpg";
+import Image9 from "@/lib/assets/images/calvin.jpg";
+import Image10 from "@/lib/assets/images/sib.jpg";
+import Image11 from "@/lib/assets/images/manni.jpg";
 import Image12 from "@/lib/assets/images/joseph.jpg";
 import Image13 from "@/lib/assets/images/richard.jpg";
 import Image14 from "@/lib/assets/images/elijah.jpg";
-import Image15 from "@/lib/assets/images/akaash.jpg";
-import Image16 from "@/lib/assets/images/kneel.jpg";
+import Image15 from "@/lib/assets/images/james.jpg";
+import Image16 from "@/lib/assets/images/akaash.jpg";
 
 export const metadata: Metadata = {
 	title: "Bridal Party",
@@ -169,7 +165,7 @@ export default async function BridalParty() {
 						className="aspect-[9/16] object-cover"
 						placeholder="blur"
 					/>
-					<p className="font-sans font-normal text-center underline underline-offset-2">Akaash Mattu - Groomsman</p>
+					<p className="font-sans font-normal text-center underline underline-offset-2">James Morris - Groomsman</p>
 					<p></p>
 					<Image
 						src={Image16}
@@ -177,7 +173,7 @@ export default async function BridalParty() {
 						className="aspect-[9/16] object-cover"
 						placeholder="blur"
 					/>
-					<p className="font-sans font-normal text-center underline underline-offset-2"> ??? - Groomsman</p>
+					<p className="font-sans font-normal text-center underline underline-offset-2">Akaash Mattu - Groomsman</p>
 				</div>
 			</div>
 		</PartyDetailsPage>
