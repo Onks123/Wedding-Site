@@ -25,7 +25,7 @@ const transition = {
 export default function Title() {
 	return (
 		<div className="relative">
-			<div className="absolute h-full w-full">
+			<div className="absolute pl-3 h-full w-full">
 				<div className="flex h-full items-center">
 					<motion.span
 						variants={center}
@@ -43,7 +43,7 @@ export default function Title() {
 				initial="hidden"
 				animate="visible"
 				transition={transition}
-				className="font-serif text-6xl font-normal text-white md:text-8xl"
+				className="font-serif pl-5 text-6xl font-normal text-white md:text-8xl"
 			>
 				Onkar
 			</motion.h1>
@@ -52,7 +52,7 @@ export default function Title() {
 				initial="hidden"
 				animate="visible"
 				transition={transition}
-				className="font-serif text-6xl font-normal text-white md:text-8xl"
+				className="font-serif pl-5 text-6xl font-normal text-white md:text-8xl"
 			>
 				Zara
 			</motion.h1>

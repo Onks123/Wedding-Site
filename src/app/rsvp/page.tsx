@@ -55,7 +55,7 @@ export default async function RsvpPage() {
 				</p> */}
 				<p className="mt-6 pt-7 pb-3 text-black">
 					{
-						"Please RSVP by Friday 10th October 2024!"
+						"Please RSVP by Friday 29th November 2024 latest!"
 					}
 				</p>
 				<p className="pb-10 text-black">

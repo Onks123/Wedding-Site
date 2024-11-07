@@ -9,7 +9,7 @@ const faqs = [
 	{
 		id: 1,
 		question: "What date should I RSVP by?",
-		answer: "Please RSVP by Thursday 10th October 2024.",
+		answer: "Please RSVP by Friday 30th November 2024.",
 	},
 	{
 		id: 2,
@@ -30,21 +30,21 @@ const faqs = [
 	},
 	{
 		id: 5,
+		question: "What is the dress code for the wedding?",
+		answer:
+			"Kindly try to avoid wearing purple, lavender, and navy. Otherwise, with three cultures being celebrated, we encourage you to dress as creatively as you like — traditional attire is absolutely welcome! Just a gentle reminder to please respect the occasion and dress modestly. Thank you!",
+	},
+	{
+		id: 6,
 		question: "What time should I arrive on the day?",
 		answer:
 			"Please refer to your invite/RSVP and the Wedding page as to what time you should arrive - if you're NOT invited to the ceremony, you are welcome to join for the Drinks before the Reception. If you ARE invited to the ceremony, it will be starting at 1:30pm.",
 	},
 	{
-		id: 6,
+		id: 7,
 		question: "Is there parking available at your venue?",
 		answer:
 			"Yes, there is limited parking onsite.",
-	},
-	{
-		id: 7,
-		question: "What is the dress code for the wedding?",
-		answer:
-			"Kindly try to avoid wearing purple, lavender, and navy. Otherwise, with three cultures being celebrated, we encourage you to dress as creatively as you like — traditional attire is absolutely welcome! Just a gentle reminder to please respect the occasion and dress modestly. Thank you!",
 	},
 	{
 		id: 8,
