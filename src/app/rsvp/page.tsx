@@ -55,7 +55,7 @@ export default async function RsvpPage() {
 				</p> */}
 				<p className="mt-6 pt-7 pb-3 text-black">
 					{
-						"Please RSVP by Friday 29th November 2024 latest!"
+						"Please RSVP by Friday 27th December 2024 latest!"
 					}
 				</p>
 				<p className="pb-10 text-black">
@@ -71,7 +71,7 @@ export default async function RsvpPage() {
 						title="Wedding Ceremony"
 						subtitle="Sunday 16th March 2025"
 						details={{
-							time: "1:30 PM",
+							time: "1:00 PM",
 							location: ["Orsett Hall", "Prince Charles Avenue, Orsett, Essex, RM16 3HS"],
 						}}
 						isAttending={user?.ceremonyIsAttending}
@@ -81,10 +81,10 @@ export default async function RsvpPage() {
 				<RsvpCardNew
 					directionLink="https://www.google.com/maps/dir//Prince+Charles+Ave,+Orsett,+Grays+RM16+3HS/@51.5158374,0.2954933,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47d8b801ccafe345:0x6136e805ecefafaa!2m2!1d0.3778935!2d51.5158663?entry=ttu"
 					wedding="reception"
-					title="Evening Reception"
+					title="Drinks & Evening Reception"
 					subtitle="Sunday 16th March 2025"
 					details={{
-						time: "5:00 PM",
+						time: "3:00 PM",
 						location: ["Orsett Hall", "Prince Charles Avenue, Orsett, Essex, RM16 3HS"],
 					}}
 					isAttending={user?.receptionIsAttending}

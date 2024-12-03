@@ -9,12 +9,12 @@ const faqs = [
 	{
 		id: 1,
 		question: "What date should I RSVP by?",
-		answer: "Please RSVP by Friday 30th November 2024.",
+		answer: "Please RSVP by Friday 27th December 2024 latest.",
 	},
 	{
 		id: 2,
 		question: "Can I change/cancel my RSVP?",
-		answer: "Your RSVP can be changed BEFORE the end date. Anytime after this, we respectfully ask you consider supporting us financially, to help us manage our costs during the wedding process. This would be appreciated!",
+		answer: "Your RSVP can be changed BEFORE the end date. If you're canceling anytime AFTER this, we respectfully ask you consider supporting us financially, to help us manage our costs during the wedding process. This would be appreciated!",
 	},
 	{
 		id: 3,
@@ -38,7 +38,7 @@ const faqs = [
 		id: 6,
 		question: "What time should I arrive on the day?",
 		answer:
-			"Please refer to your invite/RSVP and the Wedding page as to what time you should arrive - if you're NOT invited to the ceremony, you are welcome to join for the Drinks before the Reception. If you ARE invited to the ceremony, it will be starting at 1:30pm.",
+			"Please refer to your invite/RSVP and the Wedding page as to what time you should arrive - if you're NOT invited to the ceremony, you are welcome to join for the Drinks before the Reception. If you ARE invited to the ceremony, it will be starting around 1:00pm.",
 	},
 	{
 		id: 7,

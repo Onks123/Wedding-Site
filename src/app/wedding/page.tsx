@@ -18,24 +18,24 @@ export const metadata: Metadata = {
 
 const description = `
 With the ceremony taking place in a beautiful chapel, and the reception in a stunning hall, we're excited to have you all join us for our big day! 
-Below, you can find all the important information you may need, including the Itinerary, Location, and recommended Hotels. 
+Below, you can find all the important information you may need, including the Itinerary, Location, and nearby Hotels. 
 Please do checkout the O&Z, Bridal Party & Registry pages too, and read the FAQs (under 'More')!
 `;
 
 const hotels = [
 	{
 		name: "Premier Inn East",
-		distance: "10 min",
+		distance: "10 mins drive",
 		link: "https://www.premierinn.com/gb/en/hotels/england/essex/thurrock/thurrock-east.html",
 	},
 	{
 		name: "Travelodge Lakeside",
-		distance: "12 min",
+		distance: "12 mins drive",
 		link: "https://www.travelodge.co.uk/hotels/627/Thurrock-Lakeside-hotel",
 	},
 	{
 		name: "Premier Inn West",
-		distance: "14 min",
+		distance: "14 mins drive",
 		link: "https://www.premierinn.com/gb/en/hotels/england/essex/thurrock/thurrock-west.html",
 	},
 ];
@@ -43,17 +43,17 @@ const hotels = [
 const schedules = [
 	{
 		schedule: "Ceremony",
-		time: "1:30pm",
+		time: "1:00pm",
 		location: "See below",
 	},
 	{
-		schedule: "Drinks",
-		time: "3:30pm",
+		schedule: "Drinks & Pictures",
+		time: "3:00pm",
 		location: "See below",
 	},
 	{
 		schedule: "Reception",
-		time: "5:00pm",
+		time: "4:00pm",
 		location: "See below",
 	},
 ];
@@ -93,7 +93,7 @@ export default function Wedding() {
 					<p><strong>Please note:</strong></p>
 					<p>Due to the very limited capacity of the chapel, we unfortunately could <b>not</b> invite everyone to the ceremony, 
 					so please refer to your <a href='./rsvp'>invite <ArrowTopRightOnSquareIcon className="-mt-4 h-4 w-3 inline" /></a> as to what time you should arrive (you're welcome to join for Drinks).
-					For those who are attending the ceremony, it will be starting <b>promptly</b>, so please ensure you are on time, as you will not be let in after the ceremony has begun - 
+					For those who are attending the ceremony, please ensure you are on time, as you will not be let in after the ceremony has begun - 
 					thank you for understanding! </p>
 					<p>For all other important info, please refer to the <a href='./faq'>FAQs<ArrowTopRightOnSquareIcon className="-mt-4 h-4 w-3 inline" /></a>!</p>
 				</div>
