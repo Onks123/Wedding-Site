@@ -20,7 +20,7 @@ const faqs = [
 		id: 3,
 		question: "Can I bring a plus one?",
 		answer:
-			"Unfortunately, No plus ones will be allowed for the wedding - please do contact us if there's any concerns.",
+			"Unfortunately, no plus ones will be allowed for the wedding - please do contact us if there's any concerns.",
 	},
 	{
 		id: 4,

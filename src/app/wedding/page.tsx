@@ -1,4 +1,4 @@
-import LocationImage from "@/lib/assets/images/orsett_hall.jpeg";
+import LocationImage from "@/lib/assets/images/ring2.jpg";
 import VenueDetailsPage from "../venue-details";
 import {
 	Table,
