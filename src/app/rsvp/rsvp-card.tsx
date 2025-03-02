@@ -173,7 +173,7 @@ export default function RsvpCardNew(props: RsvpCardProps) {
 					</div>
 
 					{/* remove this when RSVP is over */}
-					{props.isAttending === null ? (
+					{/* {props.isAttending === null ? (
 						<form
 							className="flex flex-col items-stretch gap-3 pt-4 sm:pt-0"
 							action={(e) => respond(e, props.wedding)}
@@ -188,7 +188,7 @@ export default function RsvpCardNew(props: RsvpCardProps) {
 								additionalActions={props.additionalActions}
 							/>
 						</div>
-					)}
+					)} */}
 					{/* <div className="flex max-w-60 items-center gap-3 pt-4 sm:pt-0">
 						<Response
 							wedding={props.wedding}
