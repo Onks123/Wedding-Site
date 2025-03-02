@@ -46,7 +46,7 @@ export default async function RsvpPage() {
 				<h1 className="font-serif text-4xl text-black pt-10">
 					Hey {user?.displayName}, we can’t wait to see you!
 				</h1>
-				<p className="mt-6 pt-7 text-black">
+				<p className="mt-6 pt-7 pb-4 text-black">
 					{	
 						//change this when RSVP is over
 						"Thank you for taking the time to RSVP - the RSVP window has now closed, but you can still view your responses below."
