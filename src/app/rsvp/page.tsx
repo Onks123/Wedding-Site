@@ -46,20 +46,19 @@ export default async function RsvpPage() {
 				<h1 className="font-serif text-4xl text-black pt-10">
 					Hey {user?.displayName}, we can’t wait to see you!
 				</h1>
-				{/* <p className="mt-6 pt-7 text-black">
+				<p className="mt-6 pt-7 text-black">
 					{	
 						//change this when RSVP is over
-						"We're so excited to celebrate with you!"
-						// "Thank you for taking the time to RSVP. We're so excited to celebrate with you. The RSVP window has now closed, but you can still view your responses below."
+						"Thank you for taking the time to RSVP - the RSVP window has now closed, but you can still view your responses below."
 					}
-				</p> */}
-				<p className="mt-6 pt-7 pb-3 text-black">
+				</p>
+				{/* <p className="mt-6 pt-7 pb-3 text-black">
 					{
 						"Please RSVP by Friday 27th December 2024 latest!"
 					}
-				</p>
+				</p> */}
 				<p className="pb-10 text-black">
-						<b>NOTE:</b> You are confirming for <u>all</u> of the names above - in the case there is more than one name above and someone can <u>not</u> make it, please reach out and let us know ASAP.
+						<b>NOTE:</b> You have confirmed for <u>all</u> of the names above - in the case there is more than one name above and someone can <u>not</u> make it, please reach out and let us know ASAP.
 				</p>
 			</div>
 
