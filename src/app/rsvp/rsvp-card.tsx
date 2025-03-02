@@ -125,12 +125,12 @@ function Response(props: ResponseProps) {
 			)}
 
 			{/* remove this when RSVP is over */}
-			<div className="mt-3">
+			{/* <div className="mt-3">
 				<UpdateStatus wedding={props.wedding} />
 			</div>
 			{props.additionalActions && props.isAttending && (
 				<div className="mt-2">{props.additionalActions}</div>
-			)}
+			)} */}
 		</div>
 	);
 }
@@ -189,13 +189,13 @@ export default function RsvpCardNew(props: RsvpCardProps) {
 							/>
 						</div>
 					)} */}
-					{/* <div className="flex max-w-60 items-center gap-3 pt-4 sm:pt-0">
+					<div className="flex max-w-60 items-center gap-3 pt-4 sm:pt-0">
 						<Response
 							wedding={props.wedding}
 							isAttending={props.isAttending}
 							additionalActions={props.additionalActions}
 						/>
-					</div> */}
+					</div>
 				</div>
 			</div>
 		</div>
