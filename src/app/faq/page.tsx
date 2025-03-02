@@ -38,7 +38,7 @@ const faqs = [
 		id: 6,
 		question: "What time should I arrive on the day?",
 		answer:
-			"Please refer to your invite/RSVP and the Wedding page as to what time you should arrive - if you're NOT invited to the ceremony, you are welcome to join for the Drinks before the Reception. If you ARE invited to the ceremony, it will be starting around 1:30pm.",
+			"Please refer to your invite/RSVP and the Wedding page as to what time you should arrive - if you're NOT invited to the ceremony, you are welcome to join for the Drinks before the Reception. If you ARE invited to the ceremony, it will be starting promptly at 1:30pm.",
 	},
 	{
 		id: 7,

@@ -43,7 +43,7 @@ const hotels = [
 const schedules = [
 	{
 		schedule: "Ceremony",
-		time: "1:30pm",
+		time: "1:15pm",
 		location: "See below",
 	},
 	{

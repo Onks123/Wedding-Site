@@ -70,7 +70,7 @@ export default async function RsvpPage() {
 						title="Wedding Ceremony"
 						subtitle="Sunday 16th March 2025"
 						details={{
-							time: "1:30 PM",
+							time: "1:15 PM",
 							location: ["Orsett Hall", "Prince Charles Avenue, Orsett, Essex, RM16 3HS"],
 						}}
 						isAttending={user?.ceremonyIsAttending}
