@@ -1,6 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+**To checkout the web app (best viewed on mobile devices), click the following link or the link attached to this repository above -** https://hunjans.vercel.app/
+
+## To Run the code yourself, follow the instructions below
 
 First, run the development server:
 
